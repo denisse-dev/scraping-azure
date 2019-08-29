@@ -1,0 +1,12 @@
+{
+  "name": "string",
+  "type": "Microsoft.PowerBI/workspaceCollections",
+  "apiVersion": "2016-01-29",
+  "location": "string",
+  "tags": {},
+  "sku": {
+    "name": "S1",
+    "tier": "Standard"
+  }
+}
+ 

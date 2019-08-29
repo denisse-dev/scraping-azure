@@ -1,0 +1,53 @@
+{
+  "name": "string",
+  "type": "Microsoft.DataLakeStore/accounts",
+  "apiVersion": "2016-11-01",
+  "location": "string",
+  "tags": {},
+  "identity": {
+    "type": "SystemAssigned"
+  },
+  "properties": {
+    "defaultGroup": "string",
+    "encryptionConfig": {
+      "type": "string",
+      "keyVaultMetaInfo": {
+        "keyVaultResourceId": "string",
+        "encryptionKeyName": "string",
+        "encryptionKeyVersion": "string"
+      }
+    },
+    "encryptionState": "string",
+    "firewallRules": [
+      {
+        "name": "string",
+        "properties": {
+          "startIpAddress": "string",
+          "endIpAddress": "string"
+        }
+      }
+    ],
+    "virtualNetworkRules": [
+      {
+        "name": "string",
+        "properties": {
+          "subnetId": "string"
+        }
+      }
+    ],
+    "firewallState": "string",
+    "firewallAllowAzureIps": "string",
+    "trustedIdProviders": [
+      {
+        "name": "string",
+        "properties": {
+          "idProvider": "string"
+        }
+      }
+    ],
+    "trustedIdProviderState": "string",
+    "newTier": "string"
+  },
+  "resources": []
+}
+ 

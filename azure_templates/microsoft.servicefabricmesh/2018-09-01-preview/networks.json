@@ -1,0 +1,12 @@
+{
+  "name": "string",
+  "type": "Microsoft.ServiceFabricMesh/networks",
+  "apiVersion": "2018-09-01-preview",
+  "tags": {},
+  "location": "string",
+  "properties": {
+    "description": "string",
+    "kind": "string"
+  }
+}
+ 

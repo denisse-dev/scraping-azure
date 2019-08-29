@@ -1,0 +1,30 @@
+{
+  "name": "string",
+  "type": "Microsoft.CustomProviders/resourceProviders",
+  "apiVersion": "2018-09-01-preview",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "actions": [
+      {
+        "name": "string",
+        "endpoint": "string",
+        "routingType": "Proxy"
+      }
+    ],
+    "resourceTypes": [
+      {
+        "name": "string",
+        "endpoint": "string",
+        "routingType": "string"
+      }
+    ],
+    "validations": [
+      {
+        "validationType": "Swagger",
+        "specification": "string"
+      }
+    ]
+  }
+}
+ 

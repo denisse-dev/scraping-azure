@@ -1,0 +1,97 @@
+{
+  "name": "string",
+  "type": "Microsoft.DomainRegistration/domains",
+  "apiVersion": "2018-02-01",
+  "kind": "string",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "contactAdmin": {
+      "addressMailing": {
+        "address1": "string",
+        "address2": "string",
+        "city": "string",
+        "country": "string",
+        "postalCode": "string",
+        "state": "string"
+      },
+      "email": "string",
+      "fax": "string",
+      "jobTitle": "string",
+      "nameFirst": "string",
+      "nameLast": "string",
+      "nameMiddle": "string",
+      "organization": "string",
+      "phone": "string"
+    },
+    "contactBilling": {
+      "addressMailing": {
+        "address1": "string",
+        "address2": "string",
+        "city": "string",
+        "country": "string",
+        "postalCode": "string",
+        "state": "string"
+      },
+      "email": "string",
+      "fax": "string",
+      "jobTitle": "string",
+      "nameFirst": "string",
+      "nameLast": "string",
+      "nameMiddle": "string",
+      "organization": "string",
+      "phone": "string"
+    },
+    "contactRegistrant": {
+      "addressMailing": {
+        "address1": "string",
+        "address2": "string",
+        "city": "string",
+        "country": "string",
+        "postalCode": "string",
+        "state": "string"
+      },
+      "email": "string",
+      "fax": "string",
+      "jobTitle": "string",
+      "nameFirst": "string",
+      "nameLast": "string",
+      "nameMiddle": "string",
+      "organization": "string",
+      "phone": "string"
+    },
+    "contactTech": {
+      "addressMailing": {
+        "address1": "string",
+        "address2": "string",
+        "city": "string",
+        "country": "string",
+        "postalCode": "string",
+        "state": "string"
+      },
+      "email": "string",
+      "fax": "string",
+      "jobTitle": "string",
+      "nameFirst": "string",
+      "nameLast": "string",
+      "nameMiddle": "string",
+      "organization": "string",
+      "phone": "string"
+    },
+    "privacy": "boolean",
+    "autoRenew": "boolean",
+    "consent": {
+      "agreementKeys": [
+        "string"
+      ],
+      "agreedBy": "string",
+      "agreedAt": "string"
+    },
+    "dnsType": "string",
+    "dnsZoneId": "string",
+    "targetDnsType": "string",
+    "authCode": "string"
+  },
+  "resources": []
+}
+ 

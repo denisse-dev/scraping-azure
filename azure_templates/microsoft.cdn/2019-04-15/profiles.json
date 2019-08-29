@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.Cdn/profiles",
+  "apiVersion": "2019-04-15",
+  "location": "string",
+  "tags": {},
+  "sku": {
+    "name": "string"
+  },
+  "properties": {},
+  "resources": []
+}
+ 

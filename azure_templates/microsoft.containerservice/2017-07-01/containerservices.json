@@ -1,0 +1,69 @@
+{
+  "name": "string",
+  "type": "Microsoft.ContainerService/containerServices",
+  "apiVersion": "2017-07-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "orchestratorProfile": {
+      "orchestratorType": "string",
+      "orchestratorVersion": "string"
+    },
+    "customProfile": {
+      "orchestrator": "string"
+    },
+    "servicePrincipalProfile": {
+      "clientId": "string",
+      "secret": "string",
+      "keyVaultSecretRef": {
+        "vaultID": "string",
+        "secretName": "string",
+        "version": "string"
+      }
+    },
+    "masterProfile": {
+      "count": "integer",
+      "dnsPrefix": "string",
+      "vmSize": "string",
+      "osDiskSizeGB": "integer",
+      "vnetSubnetID": "string",
+      "firstConsecutiveStaticIP": "string",
+      "storageProfile": "string"
+    },
+    "agentPoolProfiles": [
+      {
+        "name": "string",
+        "count": "integer",
+        "vmSize": "string",
+        "osDiskSizeGB": "integer",
+        "dnsPrefix": "string",
+        "ports": [
+          "integer"
+        ],
+        "storageProfile": "string",
+        "vnetSubnetID": "string",
+        "osType": "string"
+      }
+    ],
+    "windowsProfile": {
+      "adminUsername": "string",
+      "adminPassword": "string"
+    },
+    "linuxProfile": {
+      "adminUsername": "string",
+      "ssh": {
+        "publicKeys": [
+          {
+            "keyData": "string"
+          }
+        ]
+      }
+    },
+    "diagnosticsProfile": {
+      "vmDiagnostics": {
+        "enabled": boolean
+      }
+    }
+  }
+}
+ 

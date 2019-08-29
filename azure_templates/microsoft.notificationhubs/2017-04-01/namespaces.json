@@ -1,0 +1,27 @@
+{
+  "name": "string",
+  "type": "Microsoft.NotificationHubs/namespaces",
+  "apiVersion": "2017-04-01",
+  "location": "string",
+  "tags": {},
+  "sku": {
+    "name": "string",
+    "tier": "string",
+    "size": "string",
+    "family": "string",
+    "capacity": "integer"
+  },
+  "properties": {
+    "name": "string",
+    "region": "string",
+    "serviceBusEndpoint": "string",
+    "subscriptionId": "string",
+    "scaleUnit": "string",
+    "enabled": "boolean",
+    "critical": "boolean",
+    "dataCenter": "string",
+    "namespaceType": "string"
+  },
+  "resources": []
+}
+ 

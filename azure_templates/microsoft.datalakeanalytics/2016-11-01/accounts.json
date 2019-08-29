@@ -1,0 +1,57 @@
+{
+  "name": "string",
+  "type": "Microsoft.DataLakeAnalytics/accounts",
+  "apiVersion": "2016-11-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "defaultDataLakeStoreAccount": "string",
+    "dataLakeStoreAccounts": [
+      {
+        "name": "string",
+        "properties": {
+          "suffix": "string"
+        }
+      }
+    ],
+    "storageAccounts": [
+      {
+        "name": "string",
+        "properties": {
+          "accessKey": "string",
+          "suffix": "string"
+        }
+      }
+    ],
+    "computePolicies": [
+      {
+        "name": "string",
+        "properties": {
+          "objectId": "string",
+          "objectType": "string",
+          "maxDegreeOfParallelismPerJob": "integer",
+          "minPriorityPerJob": "integer"
+        }
+      }
+    ],
+    "firewallRules": [
+      {
+        "name": "string",
+        "properties": {
+          "startIpAddress": "string",
+          "endIpAddress": "string"
+        }
+      }
+    ],
+    "firewallState": "string",
+    "firewallAllowAzureIps": "string",
+    "newTier": "string",
+    "maxJobCount": "integer",
+    "maxDegreeOfParallelism": "integer",
+    "maxDegreeOfParallelismPerJob": "integer",
+    "minPriorityPerJob": "integer",
+    "queryStoreRetention": "integer"
+  },
+  "resources": []
+}
+ 

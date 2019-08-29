@@ -1,0 +1,12 @@
+{
+  "name": "string",
+  "type": "Microsoft.DeploymentManager/serviceTopologies",
+  "apiVersion": "2018-09-01-preview",
+  "tags": {},
+  "location": "string",
+  "properties": {
+    "artifactSourceId": "string"
+  },
+  "resources": []
+}
+ 

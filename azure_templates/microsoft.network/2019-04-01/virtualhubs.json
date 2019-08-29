@@ -1,0 +1,47 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/virtualHubs",
+  "apiVersion": "2019-04-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "virtualWan": {
+      "id": "string"
+    },
+    "vpnGateway": {
+      "id": "string"
+    },
+    "p2SVpnGateway": {
+      "id": "string"
+    },
+    "expressRouteGateway": {
+      "id": "string"
+    },
+    "virtualNetworkConnections": [
+      {
+        "id": "string",
+        "properties": {
+          "remoteVirtualNetwork": {
+            "id": "string"
+          },
+          "allowHubToRemoteVnetTransit": "boolean",
+          "allowRemoteVnetToUseHubVnetGateways": "boolean",
+          "enableInternetSecurity": "boolean"
+        },
+        "name": "string"
+      }
+    ],
+    "addressPrefix": "string",
+    "routeTable": {
+      "routes": [
+        {
+          "addressPrefixes": [
+            "string"
+          ],
+          "nextHopIpAddress": "string"
+        }
+      ]
+    }
+  }
+}
+ 

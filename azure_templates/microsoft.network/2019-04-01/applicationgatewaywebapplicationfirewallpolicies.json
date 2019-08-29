@@ -1,0 +1,40 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/ApplicationGatewayWebApplicationFirewallPolicies",
+  "apiVersion": "2019-04-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "policySettings": {
+      "enabledState": "string",
+      "mode": "string"
+    },
+    "customRules": [
+      {
+        "name": "string",
+        "priority": "integer",
+        "ruleType": "string",
+        "matchConditions": [
+          {
+            "matchVariables": [
+              {
+                "variableName": "string",
+                "selector": "string"
+              }
+            ],
+            "operator": "string",
+            "negationConditon": "boolean",
+            "matchValues": [
+              "string"
+            ],
+            "transforms": [
+              "string"
+            ]
+          }
+        ],
+        "action": "string"
+      }
+    ]
+  }
+}
+ 

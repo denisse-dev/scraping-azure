@@ -1,0 +1,26 @@
+{
+  "name": "string",
+  "type": "Microsoft.Consumption/budgets",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "category": "string",
+    "amount": "number",
+    "timeGrain": "string",
+    "timePeriod": {
+      "startDate": "string",
+      "endDate": "string"
+    },
+    "filters": {
+      "resourceGroups": [
+        "string"
+      ],
+      "resources": [],
+      "meters": [
+        "string"
+      ],
+      "tags": {}
+    },
+    "notifications": {}
+  }
+}
+ 

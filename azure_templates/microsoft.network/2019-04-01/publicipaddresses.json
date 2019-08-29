@@ -1,0 +1,41 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/publicIPAddresses",
+  "apiVersion": "2019-04-01",
+  "location": "string",
+  "tags": {},
+  "sku": {
+    "name": "string"
+  },
+  "properties": {
+    "publicIPAllocationMethod": "string",
+    "publicIPAddressVersion": "string",
+    "dnsSettings": {
+      "domainNameLabel": "string",
+      "fqdn": "string",
+      "reverseFqdn": "string"
+    },
+    "ddosSettings": {
+      "ddosCustomPolicy": {
+        "id": "string"
+      },
+      "protectionCoverage": "string"
+    },
+    "ipTags": [
+      {
+        "ipTagType": "string",
+        "tag": "string"
+      }
+    ],
+    "ipAddress": "string",
+    "publicIPPrefix": {
+      "id": "string"
+    },
+    "idleTimeoutInMinutes": "integer",
+    "resourceGuid": "string"
+  },
+  "zones": [
+    "string"
+  ]
+}
+ 

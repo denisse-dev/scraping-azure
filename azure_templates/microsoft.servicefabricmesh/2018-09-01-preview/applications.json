@@ -1,0 +1,141 @@
+{
+  "name": "string",
+  "type": "Microsoft.ServiceFabricMesh/applications",
+  "apiVersion": "2018-09-01-preview",
+  "tags": {},
+  "location": "string",
+  "properties": {
+    "description": "string",
+    "services": [
+      {
+        "name": "string",
+        "properties": {
+          "osType": "string",
+          "codePackages": [
+            {
+              "name": "string",
+              "image": "string",
+              "imageRegistryCredential": {
+                "server": "string",
+                "username": "string",
+                "password": "string"
+              },
+              "entrypoint": "string",
+              "commands": [
+                "string"
+              ],
+              "environmentVariables": [
+                {
+                  "name": "string",
+                  "value": "string"
+                }
+              ],
+              "settings": [
+                {
+                  "name": "string",
+                  "value": "string"
+                }
+              ],
+              "labels": [
+                {
+                  "name": "string",
+                  "value": "string"
+                }
+              ],
+              "endpoints": [
+                {
+                  "name": "string",
+                  "port": "integer"
+                }
+              ],
+              "resources": {
+                "requests": {
+                  "memoryInGB": "number",
+                  "cpu": "number"
+                },
+                "limits": {
+                  "memoryInGB": "number",
+                  "cpu": "number"
+                }
+              },
+              "volumeRefs": [
+                {
+                  "name": "string",
+                  "readOnly": "boolean",
+                  "destinationPath": "string"
+                }
+              ],
+              "volumes": [
+                {
+                  "name": "string",
+                  "readOnly": "boolean",
+                  "destinationPath": "string",
+                  "creationParameters": {
+                    "description": "string",
+                    "kind": "string"
+                  }
+                }
+              ],
+              "diagnostics": {
+                "enabled": "boolean",
+                "sinkRefs": [
+                  "string"
+                ]
+              },
+              "reliableCollectionsRefs": [
+                {
+                  "name": "string",
+                  "doNotPersistState": "boolean"
+                }
+              ]
+            }
+          ],
+          "networkRefs": [
+            {
+              "name": "string",
+              "endpointRefs": [
+                {
+                  "name": "string"
+                }
+              ]
+            }
+          ],
+          "diagnostics": {
+            "enabled": "boolean",
+            "sinkRefs": [
+              "string"
+            ]
+          },
+          "description": "string",
+          "replicaCount": "integer",
+          "autoScalingPolicies": [
+            {
+              "name": "string",
+              "trigger": {
+                "kind": "string"
+              },
+              "mechanism": {
+                "kind": "string"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "diagnostics": {
+      "sinks": [
+        {
+          "name": "string",
+          "description": "string",
+          "kind": "string"
+        }
+      ],
+      "enabled": "boolean",
+      "defaultSinkRefs": [
+        "string"
+      ]
+    },
+    "debugParams": "string"
+  }
+}
+ 

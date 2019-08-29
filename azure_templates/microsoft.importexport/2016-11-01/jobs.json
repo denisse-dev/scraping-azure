@@ -1,0 +1,83 @@
+{
+  "name": "string",
+  "type": "Microsoft.ImportExport/jobs",
+  "apiVersion": "2016-11-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "storageAccountId": "string",
+    "jobType": "string",
+    "returnAddress": {
+      "recipientName": "string",
+      "streetAddress1": "string",
+      "streetAddress2": "string",
+      "city": "string",
+      "stateOrProvince": "string",
+      "postalCode": "string",
+      "countryOrRegion": "string",
+      "phone": "string",
+      "email": "string"
+    },
+    "returnShipping": {
+      "carrierName": "string",
+      "carrierAccountNumber": "string"
+    },
+    "shippingInformation": {
+      "recipientName": "string",
+      "streetAddress1": "string",
+      "streetAddress2": "string",
+      "city": "string",
+      "stateOrProvince": "string",
+      "postalCode": "string",
+      "countryOrRegion": "string",
+      "phone": "string"
+    },
+    "deliveryPackage": {
+      "carrierName": "string",
+      "trackingNumber": "string",
+      "driveCount": "integer",
+      "shipDate": "string"
+    },
+    "returnPackage": {
+      "carrierName": "string",
+      "trackingNumber": "string",
+      "driveCount": "integer",
+      "shipDate": "string"
+    },
+    "diagnosticsPath": "string",
+    "logLevel": "string",
+    "backupDriveManifest": "boolean",
+    "state": "string",
+    "cancelRequested": "boolean",
+    "percentComplete": "integer",
+    "incompleteBlobListUri": "string",
+    "driveList": [
+      {
+        "driveId": "string",
+        "bitLockerKey": "string",
+        "manifestFile": "string",
+        "manifestHash": "string",
+        "driveHeaderHash": "string",
+        "state": "string",
+        "copyStatus": "string",
+        "percentComplete": "integer",
+        "verboseLogUri": "string",
+        "errorLogUri": "string",
+        "manifestUri": "string",
+        "bytesSucceeded": "integer"
+      }
+    ],
+    "export": {
+      "blobList": {
+        "blobPath": [
+          "string"
+        ],
+        "blobPathPrefix": [
+          "string"
+        ]
+      },
+      "blobListblobPath": "string"
+    }
+  }
+}
+ 

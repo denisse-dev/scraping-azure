@@ -1,0 +1,35 @@
+{
+  "name": "string",
+  "type": "Microsoft.Sql/managedInstances",
+  "apiVersion": "2018-06-01-preview",
+  "location": "string",
+  "tags": {},
+  "identity": {
+    "type": "SystemAssigned"
+  },
+  "sku": {
+    "name": "string",
+    "tier": "string",
+    "size": "string",
+    "family": "string",
+    "capacity": "integer"
+  },
+  "properties": {
+    "managedInstanceCreateMode": "string",
+    "administratorLogin": "string",
+    "administratorLoginPassword": "string",
+    "subnetId": "string",
+    "licenseType": "string",
+    "vCores": "integer",
+    "storageSizeInGB": "integer",
+    "collation": "string",
+    "dnsZonePartner": "string",
+    "publicDataEndpointEnabled": "boolean",
+    "sourceManagedInstanceId": "string",
+    "restorePointInTime": "string",
+    "proxyOverride": "string",
+    "timezoneId": "string",
+    "instancePoolId": "string"
+  }
+}
+ 

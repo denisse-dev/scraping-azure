@@ -1,0 +1,66 @@
+{
+  "name": "string",
+  "type": "Microsoft.ApiManagement/service",
+  "apiVersion": "2019-01-01",
+  "tags": {},
+  "properties": {
+    "notificationSenderEmail": "string",
+    "hostnameConfigurations": [
+      {
+        "type": "string",
+        "hostName": "string",
+        "keyVaultId": "string",
+        "encodedCertificate": "string",
+        "certificatePassword": "string",
+        "defaultSslBinding": "boolean",
+        "negotiateClientCertificate": "boolean",
+        "certificate": {
+          "expiry": "string",
+          "thumbprint": "string",
+          "subject": "string"
+        }
+      }
+    ],
+    "virtualNetworkConfiguration": {
+      "subnetResourceId": "string"
+    },
+    "additionalLocations": [
+      {
+        "location": "string",
+        "sku": {
+          "name": "string",
+          "capacity": "integer"
+        },
+        "virtualNetworkConfiguration": {
+          "subnetResourceId": "string"
+        }
+      }
+    ],
+    "customProperties": {},
+    "certificates": [
+      {
+        "encodedCertificate": "string",
+        "certificatePassword": "string",
+        "storeName": "string",
+        "certificate": {
+          "expiry": "string",
+          "thumbprint": "string",
+          "subject": "string"
+        }
+      }
+    ],
+    "enableClientCertificate": "boolean",
+    "virtualNetworkType": "string",
+    "publisherEmail": "string",
+    "publisherName": "string"
+  },
+  "sku": {
+    "name": "string",
+    "capacity": "integer"
+  },
+  "identity": {
+    "type": "SystemAssigned"
+  },
+  "location": "string"
+}
+ 

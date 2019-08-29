@@ -1,0 +1,46 @@
+{
+  "name": "string",
+  "type": "Microsoft.Compute/images",
+  "apiVersion": "2019-03-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "sourceVirtualMachine": {
+      "id": "string"
+    },
+    "storageProfile": {
+      "osDisk": {
+        "osType": "string",
+        "osState": "string",
+        "snapshot": {
+          "id": "string"
+        },
+        "managedDisk": {
+          "id": "string"
+        },
+        "blobUri": "string",
+        "caching": "string",
+        "diskSizeGB": "integer",
+        "storageAccountType": "string"
+      },
+      "dataDisks": [
+        {
+          "lun": "integer",
+          "snapshot": {
+            "id": "string"
+          },
+          "managedDisk": {
+            "id": "string"
+          },
+          "blobUri": "string",
+          "caching": "string",
+          "diskSizeGB": "integer",
+          "storageAccountType": "string"
+        }
+      ],
+      "zoneResilient": "boolean"
+    },
+    "hyperVGeneration": "string"
+  }
+}
+ 

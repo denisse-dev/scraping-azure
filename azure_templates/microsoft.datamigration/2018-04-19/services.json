@@ -1,0 +1,21 @@
+{
+  "name": "string",
+  "type": "Microsoft.DataMigration/services",
+  "apiVersion": "2018-04-19",
+  "tags": {},
+  "location": "string",
+  "kind": "string",
+  "properties": {
+    "publicKey": "string",
+    "virtualSubnetId": "string"
+  },
+  "sku": {
+    "name": "string",
+    "tier": "string",
+    "family": "string",
+    "size": "string",
+    "capacity": "integer"
+  },
+  "resources": []
+}
+ 

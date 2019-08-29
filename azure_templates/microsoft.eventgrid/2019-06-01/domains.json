@@ -1,0 +1,10 @@
+{
+  "name": "string",
+  "type": "Microsoft.EventGrid/domains",
+  "apiVersion": "2019-06-01",
+  "location": "string",
+  "tags": {},
+  "properties": {},
+  "resources": []
+}
+ 

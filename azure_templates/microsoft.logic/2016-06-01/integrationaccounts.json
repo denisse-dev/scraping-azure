@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.Logic/integrationAccounts",
+  "apiVersion": "2016-06-01",
+  "location": "string",
+  "tags": {},
+  "properties": {},
+  "sku": {
+    "name": "string"
+  },
+  "resources": []
+}
+ 

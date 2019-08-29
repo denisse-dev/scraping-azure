@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.Compute/galleries",
+  "apiVersion": "2019-03-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "description": "string",
+    "identifier": {}
+  },
+  "resources": []
+}
+ 

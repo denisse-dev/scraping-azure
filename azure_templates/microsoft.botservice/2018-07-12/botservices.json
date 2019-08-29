@@ -1,0 +1,27 @@
+{
+  "name": "string",
+  "type": "Microsoft.BotService/botServices",
+  "apiVersion": "2018-07-12",
+  "location": "string",
+  "tags": {},
+  "sku": {
+    "name": "string"
+  },
+  "kind": "string",
+  "properties": {
+    "displayName": "string",
+    "description": "string",
+    "iconUrl": "string",
+    "endpoint": "string",
+    "msaAppId": "string",
+    "developerAppInsightKey": "string",
+    "developerAppInsightsApiKey": "string",
+    "developerAppInsightsApplicationId": "string",
+    "luisAppIds": [
+      "string"
+    ],
+    "luisKey": "string"
+  },
+  "resources": []
+}
+ 

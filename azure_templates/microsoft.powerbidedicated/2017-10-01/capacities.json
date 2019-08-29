@@ -1,0 +1,19 @@
+{
+  "name": "string",
+  "type": "Microsoft.PowerBIDedicated/capacities",
+  "apiVersion": "2017-10-01",
+  "location": "string",
+  "sku": {
+    "name": "string",
+    "tier": "PBIE_Azure"
+  },
+  "tags": {},
+  "properties": {
+    "administration": {
+      "members": [
+        "string"
+      ]
+    }
+  }
+}
+ 

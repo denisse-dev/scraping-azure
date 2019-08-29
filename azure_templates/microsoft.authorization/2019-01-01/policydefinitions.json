@@ -1,0 +1,15 @@
+{
+  "name": "string",
+  "type": "Microsoft.Authorization/policyDefinitions",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "policyType": "string",
+    "mode": "string",
+    "displayName": "string",
+    "description": "string",
+    "policyRule": {},
+    "metadata": {},
+    "parameters": {}
+  }
+}
+ 

@@ -1,0 +1,7 @@
+"binding": {  
+    "type": "Microsoft.StreamAnalytics/JavascriptUdf",  
+    "properties": {  
+        "scripts": "string"
+    }  
+}  
+ 

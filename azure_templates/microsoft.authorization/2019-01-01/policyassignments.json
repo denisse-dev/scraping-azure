@@ -1,0 +1,25 @@
+{
+  "name": "string",
+  "type": "Microsoft.Authorization/policyAssignments",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "displayName": "string",
+    "policyDefinitionId": "string",
+    "scope": "string",
+    "notScopes": [
+      "string"
+    ],
+    "parameters": {},
+    "description": "string",
+    "metadata": {}
+  },
+  "sku": {
+    "name": "string",
+    "tier": "string"
+  },
+  "location": "string",
+  "identity": {
+    "type": "string"
+  }
+}
+ 

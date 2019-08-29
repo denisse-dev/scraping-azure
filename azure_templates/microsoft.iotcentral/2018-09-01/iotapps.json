@@ -1,0 +1,16 @@
+{
+  "name": "string",
+  "type": "Microsoft.IoTCentral/IoTApps",
+  "apiVersion": "2018-09-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "displayName": "string",
+    "subdomain": "string",
+    "template": "string"
+  },
+  "sku": {
+    "name": "string"
+  }
+}
+ 

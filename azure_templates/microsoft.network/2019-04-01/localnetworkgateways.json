@@ -1,0 +1,22 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/localNetworkGateways",
+  "apiVersion": "2019-04-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "localNetworkAddressSpace": {
+      "addressPrefixes": [
+        "string"
+      ]
+    },
+    "gatewayIpAddress": "string",
+    "bgpSettings": {
+      "asn": "integer",
+      "bgpPeeringAddress": "string",
+      "peerWeight": "integer"
+    },
+    "resourceGuid": "string"
+  }
+}
+ 

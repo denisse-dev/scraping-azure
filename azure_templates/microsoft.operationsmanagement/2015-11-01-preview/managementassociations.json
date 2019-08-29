@@ -1,0 +1,10 @@
+{
+  "name": "string",
+  "type": "Microsoft.OperationsManagement/ManagementAssociations",
+  "apiVersion": "2015-11-01-preview",
+  "location": "string",
+  "properties": {
+    "applicationId": "string"
+  }
+}
+ 

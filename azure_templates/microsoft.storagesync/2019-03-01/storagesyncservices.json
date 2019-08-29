@@ -1,0 +1,10 @@
+{
+  "name": "string",
+  "type": "Microsoft.StorageSync/storageSyncServices",
+  "apiVersion": "2019-03-01",
+  "location": "string",
+  "tags": {},
+  "properties": {},
+  "resources": []
+}
+ 

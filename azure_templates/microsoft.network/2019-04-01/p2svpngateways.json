@@ -1,0 +1,27 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/p2svpnGateways",
+  "apiVersion": "2019-04-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "virtualHub": {
+      "id": "string"
+    },
+    "vpnGatewayScaleUnit": "integer",
+    "p2SVpnServerConfiguration": {
+      "id": "string"
+    },
+    "vpnClientAddressPool": {
+      "addressPrefixes": [
+        "string"
+      ]
+    },
+    "customRoutes": {
+      "addressPrefixes": [
+        "string"
+      ]
+    }
+  }
+}
+ 

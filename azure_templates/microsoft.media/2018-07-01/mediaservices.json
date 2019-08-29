@@ -1,0 +1,16 @@
+{
+  "name": "string",
+  "type": "Microsoft.Media/mediaservices",
+  "apiVersion": "2018-07-01",
+  "tags": {},
+  "location": "string",
+  "properties": {
+    "storageAccounts": [
+      {
+        "id": "string",
+        "type": "string"
+      }
+    ]
+  }
+}
+ 

@@ -1,0 +1,109 @@
+{
+  "name": "string",
+  "type": "Microsoft.Devices/IotHubs",
+  "apiVersion": "2018-04-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "authorizationPolicies": [
+      {
+        "keyName": "string",
+        "primaryKey": "string",
+        "secondaryKey": "string",
+        "rights": "string"
+      }
+    ],
+    "ipFilterRules": [
+      {
+        "filterName": "string",
+        "action": "string",
+        "ipMask": "string"
+      }
+    ],
+    "eventHubEndpoints": {},
+    "routing": {
+      "endpoints": {
+        "serviceBusQueues": [
+          {
+            "connectionString": "string",
+            "name": "string",
+            "subscriptionId": "string",
+            "resourceGroup": "string"
+          }
+        ],
+        "serviceBusTopics": [
+          {
+            "connectionString": "string",
+            "name": "string",
+            "subscriptionId": "string",
+            "resourceGroup": "string"
+          }
+        ],
+        "eventHubs": [
+          {
+            "connectionString": "string",
+            "name": "string",
+            "subscriptionId": "string",
+            "resourceGroup": "string"
+          }
+        ],
+        "storageContainers": [
+          {
+            "connectionString": "string",
+            "name": "string",
+            "subscriptionId": "string",
+            "resourceGroup": "string",
+            "containerName": "string",
+            "fileNameFormat": "string",
+            "batchFrequencyInSeconds": "integer",
+            "maxChunkSizeInBytes": "integer",
+            "encoding": "string"
+          }
+        ]
+      },
+      "routes": [
+        {
+          "name": "string",
+          "source": "string",
+          "condition": "string",
+          "endpointNames": [
+            "string"
+          ],
+          "isEnabled": "boolean"
+        }
+      ],
+      "fallbackRoute": {
+        "name": "string",
+        "source": "DeviceMessages",
+        "condition": "string",
+        "endpointNames": [
+          "string"
+        ],
+        "isEnabled": "boolean"
+      }
+    },
+    "storageEndpoints": {},
+    "messagingEndpoints": {},
+    "enableFileUploadNotifications": "boolean",
+    "cloudToDevice": {
+      "maxDeliveryCount": "integer",
+      "defaultTtlAsIso8601": "string",
+      "feedback": {
+        "lockDurationAsIso8601": "string",
+        "ttlAsIso8601": "string",
+        "maxDeliveryCount": "integer"
+      }
+    },
+    "comments": "string",
+    "operationsMonitoringProperties": {
+      "events": {}
+    },
+    "features": "string"
+  },
+  "sku": {
+    "name": "string",
+    "capacity": "integer"
+  },
+  "resources": []
+}
+ 

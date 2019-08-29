@@ -1,0 +1,32 @@
+{
+  "name": "string",
+  "type": "Microsoft.DevOps/pipelines",
+  "apiVersion": "2019-07-01-preview",
+  "tags": {},
+  "location": "string",
+  "properties": {
+    "organization": {
+      "name": "string"
+    },
+    "project": {
+      "name": "string"
+    },
+    "bootstrapConfiguration": {
+      "repository": {
+        "repositoryType": "string",
+        "id": "string",
+        "defaultBranch": "string",
+        "authorization": {
+          "authorizationType": "personalAccessToken",
+          "parameters": {}
+        },
+        "properties": {}
+      },
+      "template": {
+        "id": "string",
+        "parameters": {}
+      }
+    }
+  }
+}
+ 

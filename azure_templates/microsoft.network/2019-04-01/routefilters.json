@@ -1,0 +1,179 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/routeFilters",
+  "apiVersion": "2019-04-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "rules": [
+      {
+        "id": "string",
+        "properties": {
+          "access": "string",
+          "routeFilterRuleType": "Community",
+          "communities": [
+            "string"
+          ]
+        },
+        "name": "string",
+        "location": "string"
+      }
+    ],
+    "peerings": [
+      {
+        "id": "string",
+        "properties": {
+          "peeringType": "string",
+          "state": "string",
+          "azureASN": "integer",
+          "peerASN": "integer",
+          "primaryPeerAddressPrefix": "string",
+          "secondaryPeerAddressPrefix": "string",
+          "primaryAzurePort": "string",
+          "secondaryAzurePort": "string",
+          "sharedKey": "string",
+          "vlanId": "integer",
+          "microsoftPeeringConfig": {
+            "advertisedPublicPrefixes": [
+              "string"
+            ],
+            "advertisedCommunities": [
+              "string"
+            ],
+            "advertisedPublicPrefixesState": "string",
+            "legacyMode": "integer",
+            "customerASN": "integer",
+            "routingRegistryName": "string"
+          },
+          "stats": {
+            "primarybytesIn": "integer",
+            "primarybytesOut": "integer",
+            "secondarybytesIn": "integer",
+            "secondarybytesOut": "integer"
+          },
+          "routeFilter": {
+            "id": "string"
+          },
+          "ipv6PeeringConfig": {
+            "primaryPeerAddressPrefix": "string",
+            "secondaryPeerAddressPrefix": "string",
+            "microsoftPeeringConfig": {
+              "advertisedPublicPrefixes": [
+                "string"
+              ],
+              "advertisedCommunities": [
+                "string"
+              ],
+              "advertisedPublicPrefixesState": "string",
+              "legacyMode": "integer",
+              "customerASN": "integer",
+              "routingRegistryName": "string"
+            },
+            "routeFilter": {
+              "id": "string"
+            },
+            "state": "string"
+          },
+          "expressRouteConnection": {},
+          "connections": [
+            {
+              "id": "string",
+              "properties": {
+                "expressRouteCircuitPeering": {
+                  "id": "string"
+                },
+                "peerExpressRouteCircuitPeering": {
+                  "id": "string"
+                },
+                "addressPrefix": "string",
+                "authorizationKey": "string",
+                "circuitConnectionStatus": "string"
+              },
+              "name": "string"
+            }
+          ]
+        },
+        "name": "string"
+      }
+    ],
+    "ipv6Peerings": [
+      {
+        "id": "string",
+        "properties": {
+          "peeringType": "string",
+          "state": "string",
+          "azureASN": "integer",
+          "peerASN": "integer",
+          "primaryPeerAddressPrefix": "string",
+          "secondaryPeerAddressPrefix": "string",
+          "primaryAzurePort": "string",
+          "secondaryAzurePort": "string",
+          "sharedKey": "string",
+          "vlanId": "integer",
+          "microsoftPeeringConfig": {
+            "advertisedPublicPrefixes": [
+              "string"
+            ],
+            "advertisedCommunities": [
+              "string"
+            ],
+            "advertisedPublicPrefixesState": "string",
+            "legacyMode": "integer",
+            "customerASN": "integer",
+            "routingRegistryName": "string"
+          },
+          "stats": {
+            "primarybytesIn": "integer",
+            "primarybytesOut": "integer",
+            "secondarybytesIn": "integer",
+            "secondarybytesOut": "integer"
+          },
+          "routeFilter": {
+            "id": "string"
+          },
+          "ipv6PeeringConfig": {
+            "primaryPeerAddressPrefix": "string",
+            "secondaryPeerAddressPrefix": "string",
+            "microsoftPeeringConfig": {
+              "advertisedPublicPrefixes": [
+                "string"
+              ],
+              "advertisedCommunities": [
+                "string"
+              ],
+              "advertisedPublicPrefixesState": "string",
+              "legacyMode": "integer",
+              "customerASN": "integer",
+              "routingRegistryName": "string"
+            },
+            "routeFilter": {
+              "id": "string"
+            },
+            "state": "string"
+          },
+          "expressRouteConnection": {},
+          "connections": [
+            {
+              "id": "string",
+              "properties": {
+                "expressRouteCircuitPeering": {
+                  "id": "string"
+                },
+                "peerExpressRouteCircuitPeering": {
+                  "id": "string"
+                },
+                "addressPrefix": "string",
+                "authorizationKey": "string",
+                "circuitConnectionStatus": "string"
+              },
+              "name": "string"
+            }
+          ]
+        },
+        "name": "string"
+      }
+    ]
+  },
+  "resources": []
+}
+ 

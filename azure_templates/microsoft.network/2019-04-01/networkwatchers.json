@@ -1,0 +1,11 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/networkWatchers",
+  "apiVersion": "2019-04-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+  },
+  "resources": []
+}
+ 

@@ -1,0 +1,31 @@
+{
+  "name": "string",
+  "type": "Microsoft.Blockchain/blockchainMembers",
+  "apiVersion": "2018-06-01-preview",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "protocol": "string",
+    "validatorNodesSku": {
+      "capacity": "integer"
+    },
+    "password": "string",
+    "consortium": "string",
+    "consortiumManagementAccountPassword": "string",
+    "consortiumRole": "string",
+    "consortiumMemberDisplayName": "string",
+    "firewallRules": [
+      {
+        "ruleName": "string",
+        "startIpAddress": "string",
+        "endIpAddress": "string"
+      }
+    ]
+  },
+  "sku": {
+    "name": "string",
+    "tier": "string"
+  },
+  "resources": []
+}
+ 

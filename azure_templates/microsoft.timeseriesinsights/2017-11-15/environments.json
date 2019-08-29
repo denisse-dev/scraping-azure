@@ -1,0 +1,23 @@
+{
+  "name": "string",
+  "type": "Microsoft.TimeSeriesInsights/environments",
+  "apiVersion": "2017-11-15",
+  "location": "string",
+  "tags": {},
+  "sku": {
+    "name": "string",
+    "capacity": "integer"
+  },
+  "properties": {
+    "dataRetentionTime": "string",
+    "storageLimitExceededBehavior": "string",
+    "partitionKeyProperties": [
+      {
+        "name": "string",
+        "type": "String"
+      }
+    ]
+  },
+  "resources": []
+}
+ 

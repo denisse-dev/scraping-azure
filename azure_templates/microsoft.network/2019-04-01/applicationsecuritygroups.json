@@ -1,0 +1,9 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/applicationSecurityGroups",
+  "apiVersion": "2019-04-01",
+  "location": "string",
+  "tags": {},
+  "properties": {}
+}
+ 

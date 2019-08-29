@@ -1,0 +1,17 @@
+{
+  "name": "string",
+  "type": "Microsoft.ServiceFabricMesh/volumes",
+  "apiVersion": "2018-09-01-preview",
+  "tags": {},
+  "location": "string",
+  "properties": {
+    "description": "string",
+    "provider": "SFAzureFile",
+    "azureFileParameters": {
+      "accountName": "string",
+      "accountKey": "string",
+      "shareName": "string"
+    }
+  }
+}
+ 

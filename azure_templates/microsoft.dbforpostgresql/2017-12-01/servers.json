@@ -1,0 +1,27 @@
+{
+  "name": "string",
+  "type": "Microsoft.DBforPostgreSQL/servers",
+  "apiVersion": "2017-12-01",
+  "sku": {
+    "name": "string",
+    "tier": "string",
+    "capacity": "integer",
+    "size": "string",
+    "family": "string"
+  },
+  "properties": {
+    "version": "string",
+    "sslEnforcement": "string",
+    "storageProfile": {
+      "backupRetentionDays": "integer",
+      "geoRedundantBackup": "string",
+      "storageMB": "integer",
+      "storageAutogrow": "string"
+    },
+    "createMode": "string"
+  },
+  "location": "string",
+  "tags": {},
+  "resources": []
+}
+ 

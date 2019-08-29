@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.CognitiveServices/accounts",
+  "apiVersion": "2017-04-18",
+  "sku": {
+    "name": "string"
+  },
+  "kind": "string",
+  "location": "string",
+  "tags": {},
+  "properties": {}
+}
+ 

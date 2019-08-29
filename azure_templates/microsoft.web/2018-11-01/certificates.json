@@ -1,0 +1,21 @@
+{
+  "name": "string",
+  "type": "Microsoft.Web/certificates",
+  "apiVersion": "2018-11-01",
+  "kind": "string",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "hostNames": [
+      "string"
+    ],
+    "pfxBlob": [
+      "integer"
+    ],
+    "password": "string",
+    "keyVaultId": "string",
+    "keyVaultSecretName": "string",
+    "serverFarmId": "string"
+  }
+}
+ 

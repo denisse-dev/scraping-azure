@@ -1,0 +1,35 @@
+{
+  "name": "string",
+  "type": "Microsoft.AnalysisServices/servers",
+  "apiVersion": "2017-08-01",
+  "location": "string",
+  "sku": {
+    "name": "string",
+    "tier": "string",
+    "capacity": "integer"
+  },
+  "tags": {},
+  "properties": {
+    "asAdministrators": {
+      "members": [
+        "string"
+      ]
+    },
+    "backupBlobContainerUri": "string",
+    "gatewayDetails": {
+      "gatewayResourceId": "string"
+    },
+    "ipV4FirewallSettings": {
+      "firewallRules": [
+        {
+          "firewallRuleName": "string",
+          "rangeStart": "string",
+          "rangeEnd": "string"
+        }
+      ],
+      "enablePowerBIService": "boolean"
+    },
+    "querypoolConnectionMode": "string"
+  }
+}
+ 

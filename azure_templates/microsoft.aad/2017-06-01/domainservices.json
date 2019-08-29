@@ -1,0 +1,32 @@
+{
+  "name": "string",
+  "type": "Microsoft.AAD/domainServices",
+  "apiVersion": "2017-06-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "domainName": "string",
+    "subnetId": "string",
+    "ldapsSettings": {
+      "ldaps": "string",
+      "pfxCertificate": "string",
+      "pfxCertificatePassword": "string",
+      "externalAccess": "string"
+    },
+    "notificationSettings": {
+      "notifyGlobalAdmins": "string",
+      "notifyDcAdmins": "string",
+      "additionalRecipients": [
+        "string"
+      ]
+    },
+    "domainSecuritySettings": {
+      "ntlmV1": "string",
+      "tlsV1": "string",
+      "syncNtlmPasswords": "string"
+    },
+    "filteredSync": "string"
+  },
+  "resources": []
+}
+ 

@@ -1,0 +1,9 @@
+{
+  "name": "string",
+  "type": "Microsoft.CustomProviders/associations",
+  "apiVersion": "2018-09-01-preview",
+  "properties": {
+    "targetResourceId": "string"
+  }
+}
+ 

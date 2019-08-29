@@ -1,0 +1,23 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/ExpressRoutePorts",
+  "apiVersion": "2019-04-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "peeringLocation": "string",
+    "bandwidthInGbps": "integer",
+    "encapsulation": "string",
+    "links": [
+      {
+        "id": "string",
+        "properties": {
+          "adminState": "string"
+        },
+        "name": "string"
+      }
+    ],
+    "resourceGuid": "string"
+  }
+}
+ 

@@ -1,0 +1,31 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/vpnSites",
+  "apiVersion": "2019-04-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "virtualWan": {
+      "id": "string"
+    },
+    "deviceProperties": {
+      "deviceVendor": "string",
+      "deviceModel": "string",
+      "linkSpeedInMbps": "integer"
+    },
+    "ipAddress": "string",
+    "siteKey": "string",
+    "addressSpace": {
+      "addressPrefixes": [
+        "string"
+      ]
+    },
+    "bgpProperties": {
+      "asn": "integer",
+      "bgpPeeringAddress": "string",
+      "peerWeight": "integer"
+    },
+    "isSecuritySite": "boolean"
+  }
+}
+ 

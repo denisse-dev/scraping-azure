@@ -1,0 +1,20 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/expressRouteGateways",
+  "apiVersion": "2019-04-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "autoScaleConfiguration": {
+      "bounds": {
+        "min": "integer",
+        "max": "integer"
+      }
+    },
+    "virtualHub": {
+      "id": "string"
+    }
+  },
+  "resources": []
+}
+ 

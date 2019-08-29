@@ -1,0 +1,9 @@
+{
+  "name": "string",
+  "type": "Microsoft.AppConfiguration/configurationStores",
+  "apiVersion": "2019-02-01-preview",
+  "location": "string",
+  "tags": {},
+  "properties": {}
+}
+ 

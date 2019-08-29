@@ -1,0 +1,15 @@
+{
+  "name": "string",
+  "type": "Microsoft.ServiceBus/namespaces",
+  "apiVersion": "2017-04-01",
+  "location": "string",
+  "tags": {},
+  "sku": {
+    "name": "string",
+    "tier": "string",
+    "capacity": "integer"
+  },
+  "properties": {},
+  "resources": []
+}
+ 

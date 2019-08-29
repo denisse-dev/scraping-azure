@@ -1,0 +1,53 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/vpnGateways",
+  "apiVersion": "2019-04-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "virtualHub": {
+      "id": "string"
+    },
+    "connections": [
+      {
+        "id": "string",
+        "properties": {
+          "remoteVpnSite": {
+            "id": "string"
+          },
+          "routingWeight": "integer",
+          "connectionStatus": "string",
+          "vpnConnectionProtocolType": "string",
+          "connectionBandwidth": "integer",
+          "sharedKey": "string",
+          "enableBgp": "boolean",
+          "usePolicyBasedTrafficSelectors": "boolean",
+          "ipsecPolicies": [
+            {
+              "saLifeTimeSeconds": "integer",
+              "saDataSizeKilobytes": "integer",
+              "ipsecEncryption": "string",
+              "ipsecIntegrity": "string",
+              "ikeEncryption": "string",
+              "ikeIntegrity": "string",
+              "dhGroup": "string",
+              "pfsGroup": "string"
+            }
+          ],
+          "enableRateLimiting": "boolean",
+          "enableInternetSecurity": "boolean",
+          "useLocalAzureIpAddress": "boolean"
+        },
+        "name": "string"
+      }
+    ],
+    "bgpSettings": {
+      "asn": "integer",
+      "bgpPeeringAddress": "string",
+      "peerWeight": "integer"
+    },
+    "vpnGatewayScaleUnit": "integer"
+  },
+  "resources": []
+}
+ 

@@ -1,0 +1,23 @@
+{
+  "name": "string",
+  "type": "Microsoft.OperationsManagement/solutions",
+  "apiVersion": "2015-11-01-preview",
+  "location": "string",
+  "tags": {},
+  "plan": {
+    "name": "string",
+    "publisher": "string",
+    "promotionCode": "string",
+    "product": "string"
+  },
+  "properties": {
+    "workspaceResourceId": "string",
+    "containedResources": [
+      "string"
+    ],
+    "referencedResources": [
+      "string"
+    ]
+  }
+}
+ 

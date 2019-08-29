@@ -1,0 +1,17 @@
+{
+  "name": "string",
+  "type": "Microsoft.StorSimple/managers",
+  "apiVersion": "2017-06-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "cisIntrinsicSettings": {
+      "type": "string"
+    },
+    "sku": {
+      "name": "Standard"
+    }
+  },
+  "resources": []
+}
+ 
