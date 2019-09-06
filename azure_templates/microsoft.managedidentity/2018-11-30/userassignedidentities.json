@@ -1,9 +1,0 @@
-{
-  "name": "string",
-  "type": "Microsoft.ManagedIdentity/userAssignedIdentities",
-  "apiVersion": "2018-11-30",
-  "location": "string",
-  "tags": {},
-  "properties": {}
-}
- 

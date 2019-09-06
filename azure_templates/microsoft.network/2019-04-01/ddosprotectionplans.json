@@ -1,9 +1,0 @@
-{
-  "name": "string",
-  "type": "Microsoft.Network/ddosProtectionPlans",
-  "apiVersion": "2019-04-01",
-  "location": "string",
-  "tags": {},
-  "properties": {}
-}
- 

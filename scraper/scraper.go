@@ -40,12 +40,12 @@ func DownloadSpec() error {
 }
 
 func Unwrapper() {
-	json, err := ioutil.ReadFile("./toc.json")
+	resourcesList, err := ioutil.ReadFile("./toc.json")
 	if err != nil {
-		fmt.Println("No way!")
+		fmt.Println("No way!", err)
 	}
 
-	jsonQuery := gojsonq.New().JSONString(string(json))
+	jsonQuery := gojsonq.New().JSONString(string(resourcesList))
 	totalRes := jsonQuery.Find("items.[1].children")
 
 	if jsonQuery.Error() != nil {
@@ -53,17 +53,28 @@ func Unwrapper() {
 	}
 
 	for i := 0; i < reflect.ValueOf(totalRes).Len(); i++ {
-		iq := gojsonq.New().JSONString(string(json))
+		iq := gojsonq.New().JSONString(string(resourcesList))
 		mother := fmt.Sprintf("items.[1].children.[%d].children.[1].children", i)
 		max := iq.Find(mother)
 		for j := 0; j < reflect.ValueOf(max).Len(); j++ {
-			jq := gojsonq.New().JSONString(string(json))
+			jq := gojsonq.New().JSONString(string(resourcesList))
 			path := jq.Find(mother + fmt.Sprintf(".[%d].href", j))
+			if path == nil {
+				for k := 0; k < reflect.ValueOf(limit).Len(); k++ {
+					path = jq.Find(mother + fmt.Sprintf(".[%d].href", j))
+					fmt.Println("WAT: ", path)
+				}
+				continue
+			}
 			new, url, err := getSpec(fmt.Sprintf("%s", path))
 			if err != nil {
-				fmt.Println(err)
+				fmt.Println("HERE: ", err)
 			}
+			// tableGetter((fmt.Sprintf("%s", path)))
 			saveSpec(new, url)
+		}
+		if i == 7 {
+			break
 		}
 	}
 }
@@ -91,6 +102,25 @@ func saveSpec(spec string, url string) {
 
 	if err := ioutil.WriteFile(file.String(), []byte(spec), os.ModePerm); err != nil {
 		panic(err)
+	}
+}
+
+func tableGetter(path string) {
+	var url strings.Builder
+	url.WriteString("https://docs.microsoft.com/en-us/azure/templates/" + path)
+
+	c := colly.NewCollector()
+
+	c.OnHTML("div.table-scroll-wrapper", func(e *colly.HTMLElement) {
+		fmt.Println(e)
+		// resource = fmt.Sprintf("%v", *e)
+		// resource = strings.TrimPrefix(resource, "{code ")
+		// resource = resource[:strings.LastIndex(resource, "[{ class lang-json}]")]
+	})
+
+	fmt.Println(path)
+	if err := c.Visit(url.String()); err != nil {
+		fmt.Println("ERROOORR!!")
 	}
 }
 
