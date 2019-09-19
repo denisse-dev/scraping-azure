@@ -1,33 +1,71 @@
 package scraper
 
 import (
+	"encoding/json"
 	"fmt"
-	"io"
 	"io/ioutil"
-	"log"
 	"net/http"
 	"os"
-	"reflect"
 	"strings"
 
 	"github.com/gocolly/colly"
 	"github.com/thedevsaddam/gojsonq"
 )
 
-type resource struct {
-	Name string
-	Spec interface{}
+type Node struct {
+	Title    string `json:"toc_title"`
+	Href     string `json:"href"`
+	Children []Node `json:"children"`
 }
 
-func DownloadSpec() error {
-	fileUrl := "https://docs.microsoft.com/en-us/azure/templates/toc.json"
-	filePath := "toc.json"
+type Info struct {
+	Title string
+	Href  string
+}
 
-	resp, err := http.Get(fileUrl)
+func DownloadReference() error {
+	referenceUrl := "http://docs.microsoft.com/en-us/azure/templates/toc.json"
+	response, err := http.Get(referenceUrl)
+	if err != nil {
+		fmt.Println(err)
+		return err
+	}
+	defer response.Body.Close()
+
+	body, err := ioutil.ReadAll(response.Body)
+	if err != nil {
+		fmt.Println(err)
+		return err
+	}
+
+	cleanBody, err := referenceCleaner(body)
 	if err != nil {
 		return err
 	}
-	defer resp.Body.Close()
+
+	err = referenceWriter(cleanBody)
+	if err != nil {
+		fmt.Println(err)
+		return err
+	}
+
+	return nil
+}
+
+func referenceCleaner(body []byte) (cleanBody []byte, err error) {
+	jsonQuery := gojsonq.New().JSONString(string(body))
+	reference := jsonQuery.Find("items.[1].children")
+
+	cleanBody, err = json.Marshal(reference)
+	if err != nil {
+		return nil, err
+	}
+
+	return cleanBody, nil
+}
+
+func referenceWriter(cleanBody []byte) error {
+	filePath := "toc.json"
 
 	out, err := os.Create(filePath)
 	if err != nil {
@@ -35,37 +73,11 @@ func DownloadSpec() error {
 	}
 	defer out.Close()
 
-	_, err = io.Copy(out, resp.Body)
-	return err
-}
-
-func Unwrapper() {
-	json, err := ioutil.ReadFile("./toc.json")
-	if err != nil {
-		fmt.Println("No way!")
+	if _, err = out.Write(cleanBody); err != nil {
+		return err
 	}
 
-	jsonQuery := gojsonq.New().JSONString(string(json))
-	totalRes := jsonQuery.Find("items.[1].children")
-
-	if jsonQuery.Error() != nil {
-		log.Fatal(jsonQuery.Errors())
-	}
-
-	for i := 0; i < reflect.ValueOf(totalRes).Len(); i++ {
-		iq := gojsonq.New().JSONString(string(json))
-		mother := fmt.Sprintf("items.[1].children.[%d].children.[1].children", i)
-		max := iq.Find(mother)
-		for j := 0; j < reflect.ValueOf(max).Len(); j++ {
-			jq := gojsonq.New().JSONString(string(json))
-			path := jq.Find(mother + fmt.Sprintf(".[%d].href", j))
-			new, url, err := getSpec(fmt.Sprintf("%s", path))
-			if err != nil {
-				fmt.Println(err)
-			}
-			saveSpec(new, url)
-		}
-	}
+	return nil
 }
 
 func saveSpec(spec string, url string) {
