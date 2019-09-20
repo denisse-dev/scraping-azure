@@ -1,0 +1,11 @@
+{
+  "name": "string",
+  "type": "Microsoft.CustomerInsights/hubs/views",
+  "apiVersion": "2017-04-26",
+  "properties": {
+    "userId": "string",
+    "displayName": {},
+    "definition": "string"
+  }
+}
+ 

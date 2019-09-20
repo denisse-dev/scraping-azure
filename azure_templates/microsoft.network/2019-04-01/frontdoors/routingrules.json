@@ -1,0 +1,24 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/frontDoors/routingRules",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "frontendEndpoints": [
+      {
+        "id": "string"
+      }
+    ],
+    "acceptedProtocols": [
+      "string"
+    ],
+    "patternsToMatch": [
+      "string"
+    ],
+    "enabledState": "string",
+    "routeConfiguration": {
+      "@odata.type": "string"
+    },
+    "resourceState": "string"
+  }
+}
+ 

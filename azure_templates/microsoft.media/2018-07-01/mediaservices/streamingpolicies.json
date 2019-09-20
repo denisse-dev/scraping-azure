@@ -1,0 +1,166 @@
+{
+  "name": "string",
+  "type": "Microsoft.Media/mediaServices/streamingPolicies",
+  "apiVersion": "2018-07-01",
+  "properties": {
+    "defaultContentKeyPolicyName": "string",
+    "envelopeEncryption": {
+      "enabledProtocols": {
+        "download": "boolean",
+        "dash": "boolean",
+        "hls": "boolean",
+        "smoothStreaming": "boolean"
+      },
+      "clearTracks": [
+        {
+          "trackSelections": [
+            {
+              "property": "string",
+              "operation": "string",
+              "value": "string"
+            }
+          ]
+        }
+      ],
+      "contentKeys": {
+        "defaultKey": {
+          "label": "string",
+          "policyName": "string"
+        },
+        "keyToTrackMappings": [
+          {
+            "label": "string",
+            "policyName": "string",
+            "tracks": [
+              {
+                "trackSelections": [
+                  {
+                    "property": "string",
+                    "operation": "string",
+                    "value": "string"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "customKeyAcquisitionUrlTemplate": "string"
+    },
+    "commonEncryptionCenc": {
+      "enabledProtocols": {
+        "download": "boolean",
+        "dash": "boolean",
+        "hls": "boolean",
+        "smoothStreaming": "boolean"
+      },
+      "clearTracks": [
+        {
+          "trackSelections": [
+            {
+              "property": "string",
+              "operation": "string",
+              "value": "string"
+            }
+          ]
+        }
+      ],
+      "contentKeys": {
+        "defaultKey": {
+          "label": "string",
+          "policyName": "string"
+        },
+        "keyToTrackMappings": [
+          {
+            "label": "string",
+            "policyName": "string",
+            "tracks": [
+              {
+                "trackSelections": [
+                  {
+                    "property": "string",
+                    "operation": "string",
+                    "value": "string"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "drm": {
+        "playReady": {
+          "customLicenseAcquisitionUrlTemplate": "string",
+          "playReadyCustomAttributes": "string"
+        },
+        "widevine": {
+          "customLicenseAcquisitionUrlTemplate": "string"
+        }
+      }
+    },
+    "commonEncryptionCbcs": {
+      "enabledProtocols": {
+        "download": "boolean",
+        "dash": "boolean",
+        "hls": "boolean",
+        "smoothStreaming": "boolean"
+      },
+      "clearTracks": [
+        {
+          "trackSelections": [
+            {
+              "property": "string",
+              "operation": "string",
+              "value": "string"
+            }
+          ]
+        }
+      ],
+      "contentKeys": {
+        "defaultKey": {
+          "label": "string",
+          "policyName": "string"
+        },
+        "keyToTrackMappings": [
+          {
+            "label": "string",
+            "policyName": "string",
+            "tracks": [
+              {
+                "trackSelections": [
+                  {
+                    "property": "string",
+                    "operation": "string",
+                    "value": "string"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "drm": {
+        "fairPlay": {
+          "customLicenseAcquisitionUrlTemplate": "string",
+          "allowPersistentLicense": "boolean"
+        },
+        "playReady": {
+          "customLicenseAcquisitionUrlTemplate": "string",
+          "playReadyCustomAttributes": "string"
+        },
+        "widevine": {
+          "customLicenseAcquisitionUrlTemplate": "string"
+        }
+      }
+    },
+    "noEncryption": {
+      "enabledProtocols": {
+        "download": "boolean",
+        "dash": "boolean",
+        "hls": "boolean",
+        "smoothStreaming": "boolean"
+      }
+    }
+  }
+}
+ 

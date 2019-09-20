@@ -1,0 +1,10 @@
+{
+  "name": "$default",
+  "type": "Microsoft.ServiceBus/namespaces/migrationConfigurations",
+  "apiVersion": "2017-04-01",
+  "properties": {
+    "targetNamespace": "string",
+    "postMigrationName": "string"
+  }
+}
+ 

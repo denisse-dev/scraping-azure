@@ -1,0 +1,11 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/routeTables/routes",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "addressPrefix": "string",
+    "nextHopType": "string",
+    "nextHopIpAddress": "string"
+  }
+}
+ 

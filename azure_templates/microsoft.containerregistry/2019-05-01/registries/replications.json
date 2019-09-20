@@ -1,0 +1,9 @@
+{
+  "name": "string",
+  "type": "Microsoft.ContainerRegistry/registries/replications",
+  "apiVersion": "2019-05-01",
+  "location": "string",
+  "tags": {},
+  "properties": {}
+}
+ 

@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.Media/mediaServices/assets",
+  "apiVersion": "2018-07-01",
+  "properties": {
+    "alternateId": "string",
+    "description": "string",
+    "container": "string",
+    "storageAccountName": "string"
+  },
+  "resources": []
+}
+ 

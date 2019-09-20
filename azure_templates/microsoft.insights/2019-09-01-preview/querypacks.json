@@ -1,0 +1,9 @@
+{
+  "name": "string",
+  "type": "Microsoft.Insights/queryPacks",
+  "apiVersion": "2019-09-01-preview",
+  "location": "string",
+  "tags": {},
+  "properties": {}
+}
+ 

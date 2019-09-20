@@ -1,0 +1,15 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/frontDoors/frontendEndpoints",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "hostName": "string",
+    "sessionAffinityEnabledState": "string",
+    "sessionAffinityTtlSeconds": "integer",
+    "webApplicationFirewallPolicyLink": {
+      "id": "string"
+    },
+    "resourceState": "string"
+  }
+}
+ 

@@ -1,0 +1,16 @@
+{
+  "name": "string",
+  "type": "Microsoft.StorageSync/storageSyncServices/syncGroups/serverEndpoints",
+  "apiVersion": "2019-03-01",
+  "properties": {
+    "serverLocalPath": "string",
+    "cloudTiering": "string",
+    "volumeFreeSpacePercent": "integer",
+    "tierFilesOlderThanDays": "integer",
+    "friendlyName": "string",
+    "serverResourceId": "string",
+    "offlineDataTransfer": "string",
+    "offlineDataTransferShareName": "string"
+  }
+}
+ 

@@ -1,0 +1,73 @@
+{
+  "name": "string",
+  "type": "Microsoft.NotificationHubs/namespaces/notificationHubs",
+  "apiVersion": "2017-04-01",
+  "location": "string",
+  "tags": {},
+  "sku": {
+    "name": "string",
+    "tier": "string",
+    "size": "string",
+    "family": "string",
+    "capacity": "integer"
+  },
+  "properties": {
+    "name": "string",
+    "registrationTtl": "string",
+    "authorizationRules": [
+      {
+        "rights": [
+          "string"
+        ]
+      }
+    ],
+    "apnsCredential": {
+      "properties": {
+        "apnsCertificate": "string",
+        "certificateKey": "string",
+        "endpoint": "string",
+        "thumbprint": "string",
+        "keyId": "string",
+        "appName": "string",
+        "appId": "string",
+        "token": "string"
+      }
+    },
+    "wnsCredential": {
+      "properties": {
+        "packageSid": "string",
+        "secretKey": "string",
+        "windowsLiveEndpoint": "string"
+      }
+    },
+    "gcmCredential": {
+      "properties": {
+        "gcmEndpoint": "string",
+        "googleApiKey": "string"
+      }
+    },
+    "mpnsCredential": {
+      "properties": {
+        "mpnsCertificate": "string",
+        "certificateKey": "string",
+        "thumbprint": "string"
+      }
+    },
+    "admCredential": {
+      "properties": {
+        "clientId": "string",
+        "clientSecret": "string",
+        "authTokenUrl": "string"
+      }
+    },
+    "baiduCredential": {
+      "properties": {
+        "baiduApiKey": "string",
+        "baiduEndPoint": "string",
+        "baiduSecretKey": "string"
+      }
+    }
+  },
+  "resources": []
+}
+ 

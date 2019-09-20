@@ -1,0 +1,20 @@
+{
+  "name": "string",
+  "type": "Microsoft.DataFactory/factories/linkedservices",
+  "apiVersion": "2018-06-01",
+  "properties": {
+    "additionalProperties": {},
+    "connectVia": {
+      "type": "IntegrationRuntimeReference",
+      "referenceName": "string",
+      "parameters": {}
+    },
+    "description": "string",
+    "parameters": {},
+    "annotations": [
+      {}
+    ],
+    "type": "string"
+  }
+}
+ 

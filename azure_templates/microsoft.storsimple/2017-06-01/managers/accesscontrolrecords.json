@@ -1,0 +1,10 @@
+{
+  "name": "string",
+  "type": "Microsoft.StorSimple/managers/accessControlRecords",
+  "apiVersion": "2017-06-01",
+  "kind": "Series8000",
+  "properties": {
+    "initiatorName": "string"
+  }
+}
+ 

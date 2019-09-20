@@ -1,0 +1,10 @@
+{
+  "name": "string",
+  "type": "Microsoft.StreamAnalytics/streamingjobs/transformations",
+  "apiVersion": "2016-03-01",
+  "properties": {
+    "streamingUnits": "integer",
+    "query": "string"
+  }
+}
+ 

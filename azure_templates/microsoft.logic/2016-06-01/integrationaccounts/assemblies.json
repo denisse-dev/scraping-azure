@@ -1,0 +1,27 @@
+{
+  "name": "string",
+  "type": "Microsoft.Logic/integrationAccounts/assemblies",
+  "apiVersion": "2016-06-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "metadata": {},
+    "content": {},
+    "contentType": "string",
+    "contentLink": {
+      "uri": "string",
+      "contentVersion": "string",
+      "contentSize": "integer",
+      "contentHash": {
+        "algorithm": "string",
+        "value": "string"
+      },
+      "metadata": {}
+    },
+    "assemblyName": "string",
+    "assemblyVersion": "string",
+    "assemblyCulture": "string",
+    "assemblyPublicKeyToken": "string"
+  }
+}
+ 

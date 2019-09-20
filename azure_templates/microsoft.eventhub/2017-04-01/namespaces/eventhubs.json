@@ -1,0 +1,27 @@
+{
+  "name": "string",
+  "type": "Microsoft.EventHub/namespaces/eventhubs",
+  "apiVersion": "2017-04-01",
+  "properties": {
+    "messageRetentionInDays": "integer",
+    "partitionCount": "integer",
+    "status": "string",
+    "captureDescription": {
+      "enabled": "boolean",
+      "encoding": "string",
+      "intervalInSeconds": "integer",
+      "sizeLimitInBytes": "integer",
+      "destination": {
+        "name": "string",
+        "properties": {
+          "storageAccountResourceId": "string",
+          "blobContainer": "string",
+          "archiveNameFormat": "string"
+        }
+      },
+      "skipEmptyArchives": "boolean"
+    }
+  },
+  "resources": []
+}
+ 

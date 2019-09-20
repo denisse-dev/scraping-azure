@@ -1,0 +1,10 @@
+{
+  "name": "string",
+  "type": "Microsoft.DataLakeAnalytics/accounts/storageAccounts",
+  "apiVersion": "2016-11-01",
+  "properties": {
+    "accessKey": "string",
+    "suffix": "string"
+  }
+}
+ 

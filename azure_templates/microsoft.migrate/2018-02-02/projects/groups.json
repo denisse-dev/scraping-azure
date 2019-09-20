@@ -1,0 +1,12 @@
+{
+  "name": "string",
+  "type": "Microsoft.Migrate/projects/groups",
+  "apiVersion": "2018-02-02",
+  "properties": {
+    "machines": [
+      "string"
+    ]
+  },
+  "resources": []
+}
+ 

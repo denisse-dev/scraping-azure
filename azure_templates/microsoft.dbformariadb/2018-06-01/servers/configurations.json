@@ -1,0 +1,10 @@
+{
+  "name": "string",
+  "type": "Microsoft.DBforMariaDB/servers/configurations",
+  "apiVersion": "2018-06-01",
+  "properties": {
+    "value": "string",
+    "source": "string"
+  }
+}
+ 

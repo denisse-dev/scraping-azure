@@ -1,0 +1,15 @@
+{
+  "name": "string",
+  "type": "Microsoft.ApiManagement/service/subscriptions",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "ownerId": "string",
+    "scope": "string",
+    "displayName": "string",
+    "primaryKey": "string",
+    "secondaryKey": "string",
+    "state": "string",
+    "allowTracing": "boolean"
+  }
+}
+ 

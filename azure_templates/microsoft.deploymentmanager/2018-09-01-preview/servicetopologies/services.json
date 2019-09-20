@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.DeploymentManager/serviceTopologies/services",
+  "apiVersion": "2018-09-01-preview",
+  "tags": {},
+  "location": "string",
+  "properties": {
+    "targetLocation": "string",
+    "targetSubscriptionId": "string"
+  },
+  "resources": []
+}
+ 

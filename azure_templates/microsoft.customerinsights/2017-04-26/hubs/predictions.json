@@ -1,0 +1,38 @@
+{
+  "name": "string",
+  "type": "Microsoft.CustomerInsights/hubs/predictions",
+  "apiVersion": "2017-04-26",
+  "properties": {
+    "description": {},
+    "displayName": {},
+    "involvedInteractionTypes": [
+      "string"
+    ],
+    "involvedKpiTypes": [
+      "string"
+    ],
+    "involvedRelationships": [
+      "string"
+    ],
+    "negativeOutcomeExpression": "string",
+    "positiveOutcomeExpression": "string",
+    "primaryProfileType": "string",
+    "predictionName": "string",
+    "scopeExpression": "string",
+    "autoAnalyze": "boolean",
+    "mappings": {
+      "score": "string",
+      "grade": "string",
+      "reason": "string"
+    },
+    "scoreLabel": "string",
+    "grades": [
+      {
+        "gradeName": "string",
+        "minScoreThreshold": "integer",
+        "maxScoreThreshold": "integer"
+      }
+    ]
+  }
+}
+ 

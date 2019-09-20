@@ -1,0 +1,16 @@
+{
+  "name": "string",
+  "type": "Microsoft.Media/mediaservices/liveEvents/liveOutputs",
+  "apiVersion": "2018-07-01",
+  "properties": {
+    "description": "string",
+    "assetName": "string",
+    "archiveWindowLength": "string",
+    "manifestName": "string",
+    "hls": {
+      "fragmentsPerTsSegment": "integer"
+    },
+    "outputSnapTime": "integer"
+  }
+}
+ 

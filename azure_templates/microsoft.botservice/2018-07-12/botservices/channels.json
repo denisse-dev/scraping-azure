@@ -1,0 +1,15 @@
+{
+  "name": "string",
+  "type": "Microsoft.BotService/botServices/channels",
+  "apiVersion": "2018-07-12",
+  "location": "string",
+  "tags": {},
+  "sku": {
+    "name": "string"
+  },
+  "kind": "string",
+  "properties": {
+    "channelName": "string"
+  }
+}
+ 

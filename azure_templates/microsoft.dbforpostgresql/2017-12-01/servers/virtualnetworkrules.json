@@ -1,0 +1,10 @@
+{
+  "name": "string",
+  "type": "Microsoft.DBforPostgreSQL/servers/virtualNetworkRules",
+  "apiVersion": "2017-12-01",
+  "properties": {
+    "virtualNetworkSubnetId": "string",
+    "ignoreMissingVnetServiceEndpoint": "boolean"
+  }
+}
+ 

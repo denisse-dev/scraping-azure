@@ -1,0 +1,40 @@
+{
+  "name": "string",
+  "type": "Microsoft.DevTestLab/labs/customimages",
+  "apiVersion": "2018-09-15",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "vm": {
+      "sourceVmId": "string",
+      "windowsOsInfo": {
+        "windowsOsState": "string"
+      },
+      "linuxOsInfo": {
+        "linuxOsState": "string"
+      }
+    },
+    "vhd": {
+      "imageName": "string",
+      "sysPrep": "boolean",
+      "osType": "string"
+    },
+    "description": "string",
+    "author": "string",
+    "managedImageId": "string",
+    "managedSnapshotId": "string",
+    "dataDiskStorageInfo": [
+      {
+        "lun": "string",
+        "storageType": "string"
+      }
+    ],
+    "customImagePlan": {
+      "id": "string",
+      "publisher": "string",
+      "offer": "string"
+    },
+    "isPlanAuthorized": "boolean"
+  }
+}
+ 

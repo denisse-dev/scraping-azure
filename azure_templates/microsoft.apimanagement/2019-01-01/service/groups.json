@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.ApiManagement/service/groups",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "displayName": "string",
+    "description": "string",
+    "type": "string",
+    "externalId": "string"
+  },
+  "resources": []
+}
+ 

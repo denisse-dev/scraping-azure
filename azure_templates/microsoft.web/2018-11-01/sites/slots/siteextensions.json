@@ -1,0 +1,6 @@
+{
+  "name": "string",
+  "type": "Microsoft.Web/sites/slots/siteextensions",
+  "apiVersion": "2018-11-01"
+}
+ 

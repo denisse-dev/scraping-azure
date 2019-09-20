@@ -1,0 +1,111 @@
+{
+  "name": "string",
+  "type": "Microsoft.ApiManagement/service/apis/operations",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "templateParameters": [
+      {
+        "name": "string",
+        "description": "string",
+        "type": "string",
+        "defaultValue": "string",
+        "required": "boolean",
+        "values": [
+          "string"
+        ]
+      }
+    ],
+    "description": "string",
+    "request": {
+      "description": "string",
+      "queryParameters": [
+        {
+          "name": "string",
+          "description": "string",
+          "type": "string",
+          "defaultValue": "string",
+          "required": "boolean",
+          "values": [
+            "string"
+          ]
+        }
+      ],
+      "headers": [
+        {
+          "name": "string",
+          "description": "string",
+          "type": "string",
+          "defaultValue": "string",
+          "required": "boolean",
+          "values": [
+            "string"
+          ]
+        }
+      ],
+      "representations": [
+        {
+          "contentType": "string",
+          "sample": "string",
+          "schemaId": "string",
+          "typeName": "string",
+          "formParameters": [
+            {
+              "name": "string",
+              "description": "string",
+              "type": "string",
+              "defaultValue": "string",
+              "required": "boolean",
+              "values": [
+                "string"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "responses": [
+      {
+        "statusCode": "integer",
+        "description": "string",
+        "representations": [
+          {
+            "contentType": "string",
+            "sample": "string",
+            "schemaId": "string",
+            "typeName": "string",
+            "formParameters": [
+              {
+                "name": "string",
+                "description": "string",
+                "type": "string",
+                "defaultValue": "string",
+                "required": "boolean",
+                "values": [
+                  "string"
+                ]
+              }
+            ]
+          }
+        ],
+        "headers": [
+          {
+            "name": "string",
+            "description": "string",
+            "type": "string",
+            "defaultValue": "string",
+            "required": "boolean",
+            "values": [
+              "string"
+            ]
+          }
+        ]
+      }
+    ],
+    "policies": "string",
+    "displayName": "string",
+    "method": "string",
+    "urlTemplate": "string"
+  },
+  "resources": []
+}
+ 

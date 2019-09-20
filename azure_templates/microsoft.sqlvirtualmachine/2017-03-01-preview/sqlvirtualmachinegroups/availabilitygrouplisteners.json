@@ -1,0 +1,25 @@
+{
+  "name": "string",
+  "type": "Microsoft.SqlVirtualMachine/sqlVirtualMachineGroups/availabilityGroupListeners",
+  "apiVersion": "2017-03-01-preview",
+  "properties": {
+    "availabilityGroupName": "string",
+    "loadBalancerConfigurations": [
+      {
+        "privateIpAddress": {
+          "ipAddress": "string",
+          "subnetResourceId": "string"
+        },
+        "publicIpAddressResourceId": "string",
+        "loadBalancerResourceId": "string",
+        "probePort": "integer",
+        "sqlVirtualMachineInstances": [
+          "string"
+        ]
+      }
+    ],
+    "createDefaultAvailabilityGroupIfNotExist": "boolean",
+    "port": "integer"
+  }
+}
+ 

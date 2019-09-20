@@ -1,0 +1,20 @@
+{
+  "name": "string",
+  "type": "Microsoft.Migrate/projects/groups/assessments",
+  "apiVersion": "2018-02-02",
+  "properties": {
+    "azureLocation": "string",
+    "azureOfferCode": "string",
+    "azurePricingTier": "string",
+    "azureStorageRedundancy": "string",
+    "scalingFactor": "number",
+    "percentile": "string",
+    "timeRange": "string",
+    "stage": "string",
+    "currency": "string",
+    "azureHybridUseBenefit": "string",
+    "discountPercentage": "number",
+    "sizingCriterion": "string"
+  }
+}
+ 

@@ -1,0 +1,29 @@
+{
+  "name": "string",
+  "type": "Microsoft.CustomerInsights/hubs/links",
+  "apiVersion": "2017-04-26",
+  "properties": {
+    "sourceEntityType": "string",
+    "targetEntityType": "string",
+    "sourceEntityTypeName": "string",
+    "targetEntityTypeName": "string",
+    "displayName": {},
+    "description": {},
+    "mappings": [
+      {
+        "sourcePropertyName": "string",
+        "targetPropertyName": "string",
+        "linkType": "string"
+      }
+    ],
+    "participantPropertyReferences": [
+      {
+        "sourcePropertyName": "string",
+        "targetPropertyName": "string"
+      }
+    ],
+    "referenceOnly": "boolean",
+    "operationType": "string"
+  }
+}
+ 

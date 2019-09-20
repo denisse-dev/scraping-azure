@@ -1,0 +1,45 @@
+{
+  "name": "authsettings",
+  "type": "Microsoft.Web/sites/config",
+  "apiVersion": "2018-11-01",
+  "properties": {
+    "siteAuthSettings": {
+        "enabled": "boolean",
+        "runtimeVersion": "string",
+        "unauthenticatedClientAction": "string",
+        "tokenStoreEnabled": "boolean",
+        "allowedExternalRedirectUrls": [
+          "string"
+        ],
+        "defaultProvider": "string",
+        "tokenRefreshExtensionHours": "integer",
+        "clientId": "string",
+        "clientSecret": "string",
+        "clientSecretCertificateThumbprint": "string",
+        "issuer": "string",
+        "validateIssuer": "boolean",
+        "allowedAudiences": [
+           "string"
+        ],
+        "additionalLoginParams": [
+           "string"
+        ],
+        "googleClientId": "string",
+        "googleClientSecret": "string",
+        "googleOAuthScopes": [
+           "string"
+        ],
+        "facebookAppId": "string",
+        "facebookAppSecret": "string",
+        "facebookOAuthScopes": [
+           "string"
+        ],
+        "twitterConsumerKey": "string",
+        "twitterConsumerSecret": "string",
+        "microsoftAccountClientId": "string",
+        "microsoftAccountClientSecret": "string",
+        "microsoftAccountOAuthScopes": "string"
+    }
+  }
+}
+ 

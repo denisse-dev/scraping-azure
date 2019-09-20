@@ -1,0 +1,21 @@
+{
+  "name": "string",
+  "type": "Microsoft.ApiManagement/service/users",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "state": "string",
+    "note": "string",
+    "identities": [
+      {
+        "provider": "string",
+        "id": "string"
+      }
+    ],
+    "email": "string",
+    "firstName": "string",
+    "lastName": "string",
+    "password": "string",
+    "confirmation": "string"
+  }
+}
+ 

@@ -1,0 +1,10 @@
+{
+  "name": "string",
+  "type": "Microsoft.Storage/storageAccounts/fileServices/shares",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "metadata": {},
+    "shareQuota": "integer"
+  }
+}
+ 

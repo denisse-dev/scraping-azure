@@ -1,0 +1,60 @@
+{
+  "name": "string",
+  "type": "Microsoft.Cdn/profiles/endpoints",
+  "apiVersion": "2019-04-15",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "originHostHeader": "string",
+    "originPath": "string",
+    "contentTypesToCompress": [
+      "string"
+    ],
+    "isCompressionEnabled": "boolean",
+    "isHttpAllowed": "boolean",
+    "isHttpsAllowed": "boolean",
+    "queryStringCachingBehavior": "string",
+    "optimizationType": "string",
+    "probePath": "string",
+    "geoFilters": [
+      {
+        "relativePath": "string",
+        "action": "string",
+        "countryCodes": [
+          "string"
+        ]
+      }
+    ],
+    "deliveryPolicy": {
+      "description": "string",
+      "rules": [
+        {
+          "name": "string",
+          "order": "integer",
+          "conditions": [
+            {
+              "name": "string"
+            }
+          ],
+          "actions": [
+            {
+              "name": "string"
+            }
+          ]
+        }
+      ]
+    },
+    "origins": [
+      {
+        "name": "string",
+        "properties": {
+          "hostName": "string",
+          "httpPort": "integer",
+          "httpsPort": "integer"
+        }
+      }
+    ]
+  },
+  "resources": []
+}
+ 

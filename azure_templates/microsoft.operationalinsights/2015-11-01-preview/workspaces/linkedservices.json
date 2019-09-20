@@ -1,0 +1,10 @@
+{
+  "name": "string",
+  "type": "Microsoft.OperationalInsights/workspaces/linkedServices",
+  "apiVersion": "2015-11-01-preview",
+  "tags": {},
+  "properties": {
+    "resourceId": "string"
+  }
+}
+ 

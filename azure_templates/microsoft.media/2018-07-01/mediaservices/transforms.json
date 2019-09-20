@@ -1,0 +1,19 @@
+{
+  "name": "string",
+  "type": "Microsoft.Media/mediaServices/transforms",
+  "apiVersion": "2018-07-01",
+  "properties": {
+    "description": "string",
+    "outputs": [
+      {
+        "onError": "string",
+        "relativePriority": "string",
+        "preset": {
+          "@odata.type": "string"
+        }
+      }
+    ]
+  },
+  "resources": []
+}
+ 

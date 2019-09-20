@@ -1,0 +1,10 @@
+{
+  "name": "string",
+  "type": "Microsoft.DBforPostgreSQL/servers/databases",
+  "apiVersion": "2017-12-01",
+  "properties": {
+    "charset": "string",
+    "collation": "string"
+  }
+}
+ 

@@ -1,0 +1,37 @@
+{
+  "name": "string",
+  "type": "Microsoft.ApiManagement/service/authorizationServers",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "description": "string",
+    "authorizationMethods": [
+      "string"
+    ],
+    "clientAuthenticationMethod": [
+      "string"
+    ],
+    "tokenBodyParameters": [
+      {
+        "name": "string",
+        "value": "string"
+      }
+    ],
+    "tokenEndpoint": "string",
+    "supportState": "boolean",
+    "defaultScope": "string",
+    "bearerTokenSendingMethods": [
+      "string"
+    ],
+    "clientSecret": "string",
+    "resourceOwnerUsername": "string",
+    "resourceOwnerPassword": "string",
+    "displayName": "string",
+    "clientRegistrationEndpoint": "string",
+    "authorizationEndpoint": "string",
+    "grantTypes": [
+      "string"
+    ],
+    "clientId": "string"
+  }
+}
+ 

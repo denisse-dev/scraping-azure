@@ -1,0 +1,16 @@
+{
+  "name": "string",
+  "type": "Microsoft.Web/sites/premieraddons",
+  "apiVersion": "2018-11-01",
+  "kind": "string",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "sku": "string",
+    "product": "string",
+    "vendor": "string",
+    "marketplacePublisher": "string",
+    "marketplaceOffer": "string"
+  }
+}
+ 

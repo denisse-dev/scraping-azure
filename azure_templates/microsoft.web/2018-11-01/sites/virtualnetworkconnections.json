@@ -1,0 +1,14 @@
+{
+  "name": "string",
+  "type": "Microsoft.Web/sites/virtualNetworkConnections",
+  "apiVersion": "2018-11-01",
+  "kind": "string",
+  "properties": {
+    "vnetResourceId": "string",
+    "certBlob": "string",
+    "dnsServers": "string",
+    "isSwift": "boolean"
+  },
+  "resources": []
+}
+ 

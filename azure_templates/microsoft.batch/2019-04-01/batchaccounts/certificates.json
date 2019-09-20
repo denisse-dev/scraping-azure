@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.Batch/batchAccounts/certificates",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "thumbprintAlgorithm": "string",
+    "thumbprint": "string",
+    "format": "string",
+    "data": "string",
+    "password": "string"
+  }
+}
+ 

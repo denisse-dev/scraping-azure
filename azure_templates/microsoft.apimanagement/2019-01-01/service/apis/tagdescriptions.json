@@ -1,0 +1,11 @@
+{
+  "name": "string",
+  "type": "Microsoft.ApiManagement/service/apis/tagDescriptions",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "description": "string",
+    "externalDocsUrl": "string",
+    "externalDocsDescription": "string"
+  }
+}
+ 

@@ -1,0 +1,14 @@
+{
+  "name": "string",
+  "type": "Microsoft.RecoveryServices/vaults/replicationFabrics/replicationProtectionContainers",
+  "apiVersion": "2018-07-10",
+  "properties": {
+    "providerSpecificInput": [
+      {
+        "instanceType": "string"
+      }
+    ]
+  },
+  "resources": []
+}
+ 

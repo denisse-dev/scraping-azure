@@ -1,0 +1,14 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/routeFilters/routeFilterRules",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "access": "string",
+    "routeFilterRuleType": "Community",
+    "communities": [
+      "string"
+    ]
+  },
+  "location": "string"
+}
+ 

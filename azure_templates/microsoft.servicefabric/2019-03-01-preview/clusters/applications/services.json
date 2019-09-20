@@ -1,0 +1,38 @@
+{
+  "name": "string",
+  "type": "Microsoft.ServiceFabric/clusters/applications/services",
+  "apiVersion": "2019-03-01-preview",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "placementConstraints": "string",
+    "correlationScheme": [
+      {
+        "scheme": "string",
+        "serviceName": "string"
+      }
+    ],
+    "serviceLoadMetrics": [
+      {
+        "name": "string",
+        "weight": "string",
+        "primaryDefaultLoad": "integer",
+        "secondaryDefaultLoad": "integer",
+        "defaultLoad": "integer"
+      }
+    ],
+    "servicePlacementPolicies": [
+      {
+        "Type": "string"
+      }
+    ],
+    "defaultMoveCost": "string",
+    "serviceTypeName": "string",
+    "partitionDescription": {
+      "partitionScheme": "string"
+    },
+    "servicePackageActivationMode": "string",
+    "serviceKind": "string"
+  }
+}
+ 

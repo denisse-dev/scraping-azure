@@ -1,0 +1,10 @@
+{
+  "name": "string",
+  "type": "Microsoft.Web/sites/domainOwnershipIdentifiers",
+  "apiVersion": "2018-11-01",
+  "kind": "string",
+  "properties": {
+    "id": "string"
+  }
+}
+ 

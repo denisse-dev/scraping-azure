@@ -1,0 +1,123 @@
+{
+  "name": "string",
+  "type": "Microsoft.DevTestLab/labs/virtualmachines",
+  "apiVersion": "2018-09-15",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "notes": "string",
+    "ownerObjectId": "string",
+    "ownerUserPrincipalName": "string",
+    "computeId": "string",
+    "customImageId": "string",
+    "osType": "string",
+    "size": "string",
+    "userName": "string",
+    "password": "string",
+    "sshKey": "string",
+    "isAuthenticationWithSshKey": "boolean",
+    "fqdn": "string",
+    "labSubnetName": "string",
+    "labVirtualNetworkId": "string",
+    "disallowPublicIpAddress": "boolean",
+    "artifacts": [
+      {
+        "artifactId": "string",
+        "artifactTitle": "string",
+        "parameters": [
+          {
+            "name": "string",
+            "value": "string"
+          }
+        ],
+        "status": "string",
+        "deploymentStatusMessage": "string",
+        "vmExtensionStatusMessage": "string",
+        "installTime": "string"
+      }
+    ],
+    "artifactDeploymentStatus": {
+      "deploymentStatus": "string",
+      "artifactsApplied": "integer",
+      "totalArtifacts": "integer"
+    },
+    "galleryImageReference": {
+      "offer": "string",
+      "publisher": "string",
+      "sku": "string",
+      "osType": "string",
+      "version": "string"
+    },
+    "planId": "string",
+    "networkInterface": {
+      "virtualNetworkId": "string",
+      "subnetId": "string",
+      "publicIpAddressId": "string",
+      "publicIpAddress": "string",
+      "privateIpAddress": "string",
+      "dnsName": "string",
+      "rdpAuthority": "string",
+      "sshAuthority": "string",
+      "sharedPublicIpAddressConfiguration": {
+        "inboundNatRules": [
+          {
+            "transportProtocol": "string",
+            "frontendPort": "integer",
+            "backendPort": "integer"
+          }
+        ]
+      }
+    },
+    "expirationDate": "string",
+    "allowClaim": "boolean",
+    "storageType": "string",
+    "virtualMachineCreationSource": "string",
+    "environmentId": "string",
+    "dataDiskParameters": [
+      {
+        "attachNewDataDiskOptions": {
+          "diskSizeGiB": "integer",
+          "diskName": "string",
+          "diskType": "string"
+        },
+        "existingLabDiskId": "string",
+        "hostCaching": "string"
+      }
+    ],
+    "scheduleParameters": [
+      {
+        "properties": {
+          "status": "string",
+          "taskType": "string",
+          "weeklyRecurrence": {
+            "weekdays": [
+              "string"
+            ],
+            "time": "string"
+          },
+          "dailyRecurrence": {
+            "time": "string"
+          },
+          "hourlyRecurrence": {
+            "minute": "integer"
+          },
+          "timeZoneId": "string",
+          "notificationSettings": {
+            "status": "string",
+            "timeInMinutes": "integer",
+            "webhookUrl": "string",
+            "emailRecipient": "string",
+            "notificationLocale": "string"
+          },
+          "targetResourceId": "string"
+        },
+        "name": "string",
+        "location": "string",
+        "tags": {}
+      }
+    ],
+    "lastKnownPowerState": "string"
+  },
+  "resources": []
+}
+ 

@@ -1,0 +1,47 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/expressRouteCrossConnections/peerings",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "peeringType": "string",
+    "state": "string",
+    "peerASN": "integer",
+    "primaryPeerAddressPrefix": "string",
+    "secondaryPeerAddressPrefix": "string",
+    "sharedKey": "string",
+    "vlanId": "integer",
+    "microsoftPeeringConfig": {
+      "advertisedPublicPrefixes": [
+        "string"
+      ],
+      "advertisedCommunities": [
+        "string"
+      ],
+      "advertisedPublicPrefixesState": "string",
+      "legacyMode": "integer",
+      "customerASN": "integer",
+      "routingRegistryName": "string"
+    },
+    "ipv6PeeringConfig": {
+      "primaryPeerAddressPrefix": "string",
+      "secondaryPeerAddressPrefix": "string",
+      "microsoftPeeringConfig": {
+        "advertisedPublicPrefixes": [
+          "string"
+        ],
+        "advertisedCommunities": [
+          "string"
+        ],
+        "advertisedPublicPrefixesState": "string",
+        "legacyMode": "integer",
+        "customerASN": "integer",
+        "routingRegistryName": "string"
+      },
+      "routeFilter": {
+        "id": "string"
+      },
+      "state": "string"
+    }
+  }
+}
+ 

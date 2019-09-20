@@ -1,0 +1,45 @@
+{
+  "name": "default",
+  "type": "Microsoft.Storage/storageAccounts/managementPolicies",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "policy": {
+      "rules": [
+        {
+          "enabled": "boolean",
+          "name": "string",
+          "type": "Lifecycle",
+          "definition": {
+            "actions": {
+              "baseBlob": {
+                "tierToCool": {
+                  "daysAfterModificationGreaterThan": "number"
+                },
+                "tierToArchive": {
+                  "daysAfterModificationGreaterThan": "number"
+                },
+                "delete": {
+                  "daysAfterModificationGreaterThan": "number"
+                }
+              },
+              "snapshot": {
+                "delete": {
+                  "daysAfterCreationGreaterThan": "number"
+                }
+              }
+            },
+            "filters": {
+              "prefixMatch": [
+                "string"
+              ],
+              "blobTypes": [
+                "string"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+ 

@@ -1,0 +1,21 @@
+{
+  "name": "string",
+  "type": "microsoft.insights/QueryPacks/queries",
+  "apiVersion": "2019-09-01-preview",
+  "properties": {
+    "displayName": "string",
+    "description": "string",
+    "body": "string",
+    "linkedResourceId": "string",
+    "categories": [
+      "string"
+    ],
+    "resourceTypes": [
+      "string"
+    ],
+    "labels": [
+      "string"
+    ]
+  }
+}
+ 

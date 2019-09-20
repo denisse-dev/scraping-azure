@@ -1,0 +1,43 @@
+{
+  "name": "string",
+  "type": "Microsoft.Logic/integrationAccounts/batchConfigurations",
+  "apiVersion": "2016-06-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "metadata": {},
+    "batchGroupName": "string",
+    "releaseCriteria": {
+      "messageCount": "integer",
+      "batchSize": "integer",
+      "recurrence": {
+        "frequency": "string",
+        "interval": "integer",
+        "startTime": "string",
+        "endTime": "string",
+        "timeZone": "string",
+        "schedule": {
+          "minutes": [
+            "integer"
+          ],
+          "hours": [
+            "integer"
+          ],
+          "weekDays": [
+            "string"
+          ],
+          "monthDays": [
+            "integer"
+          ],
+          "monthlyOccurrences": [
+            {
+              "day": "string",
+              "occurrence": "integer"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
+ 

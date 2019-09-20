@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.StorSimple/managers/devices/backupPolicies",
+  "apiVersion": "2017-06-01",
+  "kind": "Series8000",
+  "properties": {
+    "volumeIds": [
+      "string"
+    ]
+  },
+  "resources": []
+}
+ 

@@ -1,0 +1,21 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/networkWatchers/connectionMonitors",
+  "apiVersion": "2019-04-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "source": {
+      "resourceId": "string",
+      "port": "integer"
+    },
+    "destination": {
+      "resourceId": "string",
+      "address": "string",
+      "port": "integer"
+    },
+    "autoStart": "boolean",
+    "monitoringIntervalInSeconds": "integer"
+  }
+}
+ 

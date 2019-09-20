@@ -1,0 +1,30 @@
+{
+  "name": "string",
+  "type": "Microsoft.Media/mediaServices/assets/assetFilters",
+  "apiVersion": "2018-07-01",
+  "properties": {
+    "presentationTimeRange": {
+      "startTimestamp": "integer",
+      "endTimestamp": "integer",
+      "presentationWindowDuration": "integer",
+      "liveBackoffDuration": "integer",
+      "timescale": "integer",
+      "forceEndTimestamp": "boolean"
+    },
+    "firstQuality": {
+      "bitrate": "integer"
+    },
+    "tracks": [
+      {
+        "trackSelections": [
+          {
+            "property": "string",
+            "value": "string",
+            "operation": "string"
+          }
+        ]
+      }
+    ]
+  }
+}
+ 

@@ -1,0 +1,10 @@
+{
+  "name": "string",
+  "type": "Microsoft.ApiManagement/service/certificates",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "data": "string",
+    "password": "string"
+  }
+}
+ 

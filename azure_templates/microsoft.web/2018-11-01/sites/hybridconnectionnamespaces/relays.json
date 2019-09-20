@@ -1,0 +1,17 @@
+{
+  "name": "string",
+  "type": "Microsoft.Web/sites/hybridConnectionNamespaces/relays",
+  "apiVersion": "2018-11-01",
+  "kind": "string",
+  "properties": {
+    "serviceBusNamespace": "string",
+    "relayName": "string",
+    "relayArmUri": "string",
+    "hostname": "string",
+    "port": "integer",
+    "sendKeyName": "string",
+    "sendKeyValue": "string",
+    "serviceBusSuffix": "string"
+  }
+}
+ 

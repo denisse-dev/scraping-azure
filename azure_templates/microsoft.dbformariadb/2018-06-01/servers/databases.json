@@ -1,0 +1,10 @@
+{
+  "name": "string",
+  "type": "Microsoft.DBforMariaDB/servers/databases",
+  "apiVersion": "2018-06-01",
+  "properties": {
+    "charset": "string",
+    "collation": "string"
+  }
+}
+ 

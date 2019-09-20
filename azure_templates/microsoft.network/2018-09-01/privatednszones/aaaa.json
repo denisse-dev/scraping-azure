@@ -1,0 +1,58 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/privateDnsZones/AAAA",
+  "apiVersion": "2018-09-01",
+  "properties": {
+    "metadata": {},
+    "ttl": "integer",
+    "aRecords": [
+      {
+        "ipv4Address": "string"
+      }
+    ],
+    "aaaaRecords": [
+      {
+        "ipv6Address": "string"
+      }
+    ],
+    "cnameRecord": {
+      "cname": "string"
+    },
+    "mxRecords": [
+      {
+        "preference": "integer",
+        "exchange": "string"
+      }
+    ],
+    "ptrRecords": [
+      {
+        "ptrdname": "string"
+      }
+    ],
+    "soaRecord": {
+      "host": "string",
+      "email": "string",
+      "serialNumber": "integer",
+      "refreshTime": "integer",
+      "retryTime": "integer",
+      "expireTime": "integer",
+      "minimumTtl": "integer"
+    },
+    "srvRecords": [
+      {
+        "priority": "integer",
+        "weight": "integer",
+        "port": "integer",
+        "target": "string"
+      }
+    ],
+    "txtRecords": [
+      {
+        "value": [
+          "string"
+        ]
+      }
+    ]
+  }
+}
+ 

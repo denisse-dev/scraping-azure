@@ -1,0 +1,48 @@
+{
+  "name": "string",
+  "type": "Microsoft.CustomerInsights/hubs/relationships",
+  "apiVersion": "2017-04-26",
+  "properties": {
+    "cardinality": "string",
+    "displayName": {},
+    "description": {},
+    "expiryDateTimeUtc": "string",
+    "fields": [
+      {
+        "arrayValueSeparator": "string",
+        "enumValidValues": [
+          {
+            "value": "integer",
+            "localizedValueNames": {}
+          }
+        ],
+        "fieldName": "string",
+        "fieldType": "string",
+        "isArray": "boolean",
+        "isEnum": "boolean",
+        "isFlagEnum": "boolean",
+        "isImage": "boolean",
+        "isLocalizedString": "boolean",
+        "isName": "boolean",
+        "isRequired": "boolean",
+        "propertyId": "string",
+        "schemaItemPropLink": "string",
+        "maxLength": "integer",
+        "isAvailableInGraph": "boolean"
+      }
+    ],
+    "lookupMappings": [
+      {
+        "fieldMappings": [
+          {
+            "profileFieldName": "string",
+            "relatedProfileKeyProperty": "string"
+          }
+        ]
+      }
+    ],
+    "profileType": "string",
+    "relatedProfileType": "string"
+  }
+}
+ 

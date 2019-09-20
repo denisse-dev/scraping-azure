@@ -1,0 +1,45 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/networkSecurityGroups/securityRules",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "description": "string",
+    "protocol": "string",
+    "sourcePortRange": "string",
+    "destinationPortRange": "string",
+    "sourceAddressPrefix": "string",
+    "sourceAddressPrefixes": [
+      "string"
+    ],
+    "sourceApplicationSecurityGroups": [
+      {
+        "id": "string",
+        "location": "string",
+        "tags": {},
+        "properties": {}
+      }
+    ],
+    "destinationAddressPrefix": "string",
+    "destinationAddressPrefixes": [
+      "string"
+    ],
+    "destinationApplicationSecurityGroups": [
+      {
+        "id": "string",
+        "location": "string",
+        "tags": {},
+        "properties": {}
+      }
+    ],
+    "sourcePortRanges": [
+      "string"
+    ],
+    "destinationPortRanges": [
+      "string"
+    ],
+    "access": "string",
+    "priority": "integer",
+    "direction": "string"
+  }
+}
+ 

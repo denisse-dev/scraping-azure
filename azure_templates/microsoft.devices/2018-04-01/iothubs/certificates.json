@@ -1,0 +1,7 @@
+{
+  "name": "string",
+  "type": "Microsoft.Devices/IotHubs/certificates",
+  "apiVersion": "2018-04-01",
+  "certificate": "string"
+}
+ 

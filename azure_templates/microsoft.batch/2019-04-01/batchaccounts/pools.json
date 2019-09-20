@@ -1,0 +1,166 @@
+{
+  "name": "string",
+  "type": "Microsoft.Batch/batchAccounts/pools",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "displayName": "string",
+    "vmSize": "string",
+    "deploymentConfiguration": {
+      "cloudServiceConfiguration": {
+        "osFamily": "string",
+        "osVersion": "string"
+      },
+      "virtualMachineConfiguration": {
+        "imageReference": {
+          "publisher": "string",
+          "offer": "string",
+          "sku": "string",
+          "version": "string",
+          "id": "string"
+        },
+        "nodeAgentSkuId": "string",
+        "windowsConfiguration": {
+          "enableAutomaticUpdates": "boolean"
+        },
+        "dataDisks": [
+          {
+            "lun": "integer",
+            "caching": "string",
+            "diskSizeGB": "integer",
+            "storageAccountType": "string"
+          }
+        ],
+        "licenseType": "string",
+        "containerConfiguration": {
+          "type": "DockerCompatible",
+          "containerImageNames": [
+            "string"
+          ],
+          "containerRegistries": [
+            {
+              "registryServer": "string",
+              "username": "string",
+              "password": "string"
+            }
+          ]
+        }
+      }
+    },
+    "scaleSettings": {
+      "fixedScale": {
+        "resizeTimeout": "string",
+        "targetDedicatedNodes": "integer",
+        "targetLowPriorityNodes": "integer",
+        "nodeDeallocationOption": "string"
+      },
+      "autoScale": {
+        "formula": "string",
+        "evaluationInterval": "string"
+      }
+    },
+    "interNodeCommunication": "string",
+    "networkConfiguration": {
+      "subnetId": "string",
+      "endpointConfiguration": {
+        "inboundNatPools": [
+          {
+            "name": "string",
+            "protocol": "string",
+            "backendPort": "integer",
+            "frontendPortRangeStart": "integer",
+            "frontendPortRangeEnd": "integer",
+            "networkSecurityGroupRules": [
+              {
+                "priority": "integer",
+                "access": "string",
+                "sourceAddressPrefix": "string"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "maxTasksPerNode": "integer",
+    "taskSchedulingPolicy": {
+      "nodeFillType": "string"
+    },
+    "userAccounts": [
+      {
+        "name": "string",
+        "password": "string",
+        "elevationLevel": "string",
+        "linuxUserConfiguration": {
+          "uid": "integer",
+          "gid": "integer",
+          "sshPrivateKey": "string"
+        },
+        "windowsUserConfiguration": {
+          "loginMode": "string"
+        }
+      }
+    ],
+    "metadata": [
+      {
+        "name": "string",
+        "value": "string"
+      }
+    ],
+    "startTask": {
+      "commandLine": "string",
+      "resourceFiles": [
+        {
+          "autoStorageContainerName": "string",
+          "storageContainerUrl": "string",
+          "httpUrl": "string",
+          "blobPrefix": "string",
+          "filePath": "string",
+          "fileMode": "string"
+        }
+      ],
+      "environmentSettings": [
+        {
+          "name": "string",
+          "value": "string"
+        }
+      ],
+      "userIdentity": {
+        "userName": "string",
+        "autoUser": {
+          "scope": "string",
+          "elevationLevel": "string"
+        }
+      },
+      "maxTaskRetryCount": "integer",
+      "waitForSuccess": "boolean",
+      "containerSettings": {
+        "containerRunOptions": "string",
+        "imageName": "string",
+        "registry": {
+          "registryServer": "string",
+          "username": "string",
+          "password": "string"
+        }
+      }
+    },
+    "certificates": [
+      {
+        "id": "string",
+        "storeLocation": "string",
+        "storeName": "string",
+        "visibility": [
+          "string"
+        ]
+      }
+    ],
+    "applicationPackages": [
+      {
+        "id": "string",
+        "version": "string"
+      }
+    ],
+    "applicationLicenses": [
+      "string"
+    ]
+  }
+}
+ 

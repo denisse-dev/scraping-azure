@@ -1,0 +1,10 @@
+{
+  "name": "string",
+  "type": "Microsoft.ServiceBus/namespaces/disasterRecoveryConfigs",
+  "apiVersion": "2017-04-01",
+  "properties": {
+    "partnerNamespace": "string",
+    "alternateName": "string"
+  }
+}
+ 

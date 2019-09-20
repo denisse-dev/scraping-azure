@@ -1,0 +1,30 @@
+{
+  "name": "string",
+  "type": "Microsoft.ServiceBus/namespaces/topics/subscriptions/rules",
+  "apiVersion": "2017-04-01",
+  "properties": {
+    "action": {
+      "sqlExpression": "string",
+      "compatibilityLevel": "integer",
+      "requiresPreprocessing": "boolean"
+    },
+    "filterType": "string",
+    "sqlFilter": {
+      "sqlExpression": "string",
+      "requiresPreprocessing": "boolean"
+    },
+    "correlationFilter": {
+      "properties": {},
+      "correlationId": "string",
+      "messageId": "string",
+      "to": "string",
+      "replyTo": "string",
+      "label": "string",
+      "sessionId": "string",
+      "replyToSessionId": "string",
+      "contentType": "string",
+      "requiresPreprocessing": "boolean"
+    }
+  }
+}
+ 

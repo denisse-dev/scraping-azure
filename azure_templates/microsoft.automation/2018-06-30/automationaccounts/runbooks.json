@@ -1,0 +1,40 @@
+{
+  "name": "string",
+  "type": "Microsoft.Automation/automationAccounts/runbooks",
+  "apiVersion": "2018-06-30",
+  "properties": {
+    "logVerbose": "boolean",
+    "logProgress": "boolean",
+    "runbookType": "string",
+    "draft": {
+      "inEdit": "boolean",
+      "draftContentLink": {
+        "uri": "string",
+        "contentHash": {
+          "algorithm": "string",
+          "value": "string"
+        },
+        "version": "string"
+      },
+      "creationTime": "string",
+      "lastModifiedTime": "string",
+      "parameters": {},
+      "outputTypes": [
+        "string"
+      ]
+    },
+    "publishContentLink": {
+      "uri": "string",
+      "contentHash": {
+        "algorithm": "string",
+        "value": "string"
+      },
+      "version": "string"
+    },
+    "description": "string",
+    "logActivityTrace": "integer"
+  },
+  "location": "string",
+  "tags": {}
+}
+ 

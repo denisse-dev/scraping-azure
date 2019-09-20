@@ -1,0 +1,68 @@
+{
+  "name": "string",
+  "type": "Microsoft.Media/mediaservices/liveEvents",
+  "apiVersion": "2018-07-01",
+  "tags": {},
+  "location": "string",
+  "properties": {
+    "description": "string",
+    "input": {
+      "streamingProtocol": "string",
+      "accessControl": {
+        "ip": {
+          "allow": [
+            {
+              "name": "string",
+              "address": "string",
+              "subnetPrefixLength": "integer"
+            }
+          ]
+        }
+      },
+      "keyFrameIntervalDuration": "string",
+      "accessToken": "string",
+      "endpoints": [
+        {
+          "protocol": "string",
+          "url": "string"
+        }
+      ]
+    },
+    "preview": {
+      "endpoints": [
+        {
+          "protocol": "string",
+          "url": "string"
+        }
+      ],
+      "accessControl": {
+        "ip": {
+          "allow": [
+            {
+              "name": "string",
+              "address": "string",
+              "subnetPrefixLength": "integer"
+            }
+          ]
+        }
+      },
+      "previewLocator": "string",
+      "streamingPolicyName": "string",
+      "alternativeMediaId": "string"
+    },
+    "encoding": {
+      "encodingType": "string",
+      "presetName": "string"
+    },
+    "crossSiteAccessPolicies": {
+      "clientAccessPolicy": "string",
+      "crossDomainPolicy": "string"
+    },
+    "vanityUrl": "boolean",
+    "streamOptions": [
+      "string"
+    ]
+  },
+  "resources": []
+}
+ 

@@ -1,0 +1,26 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/networkWatchers/packetCaptures",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "target": "string",
+    "bytesToCapturePerPacket": "integer",
+    "totalBytesPerSession": "integer",
+    "timeLimitInSeconds": "integer",
+    "storageLocation": {
+      "storageId": "string",
+      "storagePath": "string",
+      "filePath": "string"
+    },
+    "filters": [
+      {
+        "protocol": "string",
+        "localIPAddress": "string",
+        "remoteIPAddress": "string",
+        "localPort": "string",
+        "remotePort": "string"
+      }
+    ]
+  }
+}
+ 

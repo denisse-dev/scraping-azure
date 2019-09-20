@@ -1,0 +1,31 @@
+{
+  "name": "string",
+  "type": "Microsoft.DevTestLab/labs/costs",
+  "apiVersion": "2018-09-15",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "targetCost": {
+      "status": "string",
+      "target": "integer",
+      "costThresholds": [
+        {
+          "thresholdId": "string",
+          "percentageThreshold": {
+            "thresholdValue": "number"
+          },
+          "displayOnChart": "string",
+          "sendNotificationWhenExceeded": "string",
+          "notificationSent": "string"
+        }
+      ],
+      "cycleStartDateTime": "string",
+      "cycleEndDateTime": "string",
+      "cycleType": "string"
+    },
+    "currencyCode": "string",
+    "startDateTime": "string",
+    "endDateTime": "string"
+  }
+}
+ 

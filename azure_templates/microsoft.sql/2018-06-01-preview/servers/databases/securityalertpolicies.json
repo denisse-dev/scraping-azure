@@ -1,0 +1,19 @@
+{
+  "name": "string",
+  "type": "Microsoft.Sql/servers/databases/securityAlertPolicies",
+  "apiVersion": "2018-06-01-preview",
+  "properties": {
+    "state": "string",
+    "disabledAlerts": [
+      "string"
+    ],
+    "emailAddresses": [
+      "string"
+    ],
+    "emailAccountAdmins": "boolean",
+    "storageEndpoint": "string",
+    "storageAccountAccessKey": "string",
+    "retentionDays": "integer"
+  }
+}
+ 

@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/expressRouteGateways/expressRouteConnections",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "expressRouteCircuitPeering": {
+      "id": "string"
+    },
+    "authorizationKey": "string",
+    "routingWeight": "integer"
+  }
+}
+ 

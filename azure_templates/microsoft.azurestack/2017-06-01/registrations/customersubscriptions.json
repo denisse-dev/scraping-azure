@@ -1,0 +1,9 @@
+{
+  "name": "string",
+  "type": "Microsoft.AzureStack/registrations/customerSubscriptions",
+  "apiVersion": "2017-06-01",
+  "properties": {
+    "tenantId": "string"
+  }
+}
+ 

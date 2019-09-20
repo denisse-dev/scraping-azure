@@ -1,0 +1,17 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/expressRouteCircuits/peerings/connections",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "expressRouteCircuitPeering": {
+      "id": "string"
+    },
+    "peerExpressRouteCircuitPeering": {
+      "id": "string"
+    },
+    "addressPrefix": "string",
+    "authorizationKey": "string",
+    "circuitConnectionStatus": "string"
+  }
+}
+ 

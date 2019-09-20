@@ -1,0 +1,19 @@
+{
+  "name": "string",
+  "type": "Microsoft.DBforMySQL/servers/securityAlertPolicies",
+  "apiVersion": "2017-12-01",
+  "properties": {
+    "state": "string",
+    "disabledAlerts": [
+      "string"
+    ],
+    "emailAddresses": [
+      "string"
+    ],
+    "emailAccountAdmins": "boolean",
+    "storageEndpoint": "string",
+    "storageAccountAccessKey": "string",
+    "retentionDays": "integer"
+  }
+}
+ 

@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.Web/sites/publicCertificates",
+  "apiVersion": "2018-11-01",
+  "kind": "string",
+  "properties": {
+    "blob": [
+      "integer"
+    ],
+    "publicCertificateLocation": "string"
+  }
+}
+ 

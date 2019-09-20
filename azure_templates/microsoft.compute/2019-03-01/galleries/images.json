@@ -1,0 +1,43 @@
+{
+  "name": "string",
+  "type": "Microsoft.Compute/galleries/images",
+  "apiVersion": "2019-03-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "description": "string",
+    "eula": "string",
+    "privacyStatementUri": "string",
+    "releaseNoteUri": "string",
+    "osType": "string",
+    "osState": "string",
+    "endOfLifeDate": "string",
+    "identifier": {
+      "publisher": "string",
+      "offer": "string",
+      "sku": "string"
+    },
+    "recommended": {
+      "vCPUs": {
+        "min": "integer",
+        "max": "integer"
+      },
+      "memory": {
+        "min": "integer",
+        "max": "integer"
+      }
+    },
+    "disallowed": {
+      "diskTypes": [
+        "string"
+      ]
+    },
+    "purchasePlan": {
+      "name": "string",
+      "publisher": "string",
+      "product": "string"
+    }
+  },
+  "resources": []
+}
+ 

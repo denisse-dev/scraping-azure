@@ -1,0 +1,14 @@
+{
+  "name": "web",
+  "type": "Microsoft.Web/sites/slots/sourcecontrols",
+  "apiVersion": "2018-11-01",
+  "kind": "string",
+  "properties": {
+    "repoUrl": "string",
+    "branch": "string",
+    "isManualIntegration": "boolean",
+    "deploymentRollbackEnabled": "boolean",
+    "isMercurial": "boolean"
+  }
+}
+ 

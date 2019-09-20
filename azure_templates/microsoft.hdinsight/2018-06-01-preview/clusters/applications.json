@@ -1,0 +1,117 @@
+{
+  "name": "string",
+  "type": "Microsoft.HDInsight/clusters/applications",
+  "apiVersion": "2018-06-01-preview",
+  "tags": {},
+  "properties": {
+    "computeProfile": {
+      "roles": [
+        {
+          "name": "string",
+          "minInstanceCount": "integer",
+          "targetInstanceCount": "integer",
+          "autoscale": {
+            "capacity": {
+              "minInstanceCount": "integer",
+              "maxInstanceCount": "integer"
+            },
+            "recurrence": {
+              "timeZone": "string",
+              "schedule": [
+                {
+                  "days": [
+                    "string"
+                  ],
+                  "timeAndCapacity": {
+                    "time": "string",
+                    "minInstanceCount": "integer",
+                    "maxInstanceCount": "integer"
+                  }
+                }
+              ]
+            }
+          },
+          "hardwareProfile": {
+            "vmSize": "string"
+          },
+          "osProfile": {
+            "linuxOperatingSystemProfile": {
+              "username": "string",
+              "password": "string",
+              "sshProfile": {
+                "publicKeys": [
+                  {
+                    "certificateData": "string"
+                  }
+                ]
+              }
+            }
+          },
+          "virtualNetworkProfile": {
+            "id": "string",
+            "subnet": "string"
+          },
+          "dataDisksGroups": [
+            {
+              "disksPerNode": "integer"
+            }
+          ],
+          "scriptActions": [
+            {
+              "name": "string",
+              "uri": "string",
+              "parameters": "string"
+            }
+          ]
+        }
+      ]
+    },
+    "installScriptActions": [
+      {
+        "name": "string",
+        "uri": "string",
+        "parameters": "string",
+        "roles": [
+          "string"
+        ]
+      }
+    ],
+    "uninstallScriptActions": [
+      {
+        "name": "string",
+        "uri": "string",
+        "parameters": "string",
+        "roles": [
+          "string"
+        ]
+      }
+    ],
+    "httpsEndpoints": [
+      {
+        "accessModes": [
+          "string"
+        ],
+        "location": "string",
+        "destinationPort": "integer",
+        "publicPort": "integer",
+        "subDomainSuffix": "string",
+        "disableGatewayAuth": "boolean"
+      }
+    ],
+    "sshEndpoints": [
+      {
+        "location": "string",
+        "destinationPort": "integer",
+        "publicPort": "integer"
+      }
+    ],
+    "applicationType": "string",
+    "errors": [
+      {
+        "code": "string",
+        "message": "string"
+      }
+    ]
+  }
+}
+ 

@@ -1,0 +1,57 @@
+{
+  "name": "string",
+  "type": "Microsoft.ApiManagement/service/apis",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "description": "string",
+    "authenticationSettings": {
+      "oAuth2": {
+        "authorizationServerId": "string",
+        "scope": "string"
+      },
+      "openid": {
+        "openidProviderId": "string",
+        "bearerTokenSendingMethods": [
+          "string"
+        ]
+      },
+      "subscriptionKeyRequired": "boolean"
+    },
+    "subscriptionKeyParameterNames": {
+      "header": "string",
+      "query": "string"
+    },
+    "type": "string",
+    "apiRevision": "string",
+    "apiVersion": "string",
+    "isCurrent": "boolean",
+    "apiRevisionDescription": "string",
+    "apiVersionDescription": "string",
+    "apiVersionSetId": "string",
+    "subscriptionRequired": "boolean",
+    "sourceApiId": "string",
+    "displayName": "string",
+    "serviceUrl": "string",
+    "path": "string",
+    "protocols": [
+      "string"
+    ],
+    "apiVersionSet": {
+      "id": "string",
+      "name": "string",
+      "description": "string",
+      "versioningScheme": "string",
+      "versionQueryName": "string",
+      "versionHeaderName": "string"
+    },
+    "value": "string",
+    "format": "string",
+    "wsdlSelector": {
+      "wsdlServiceName": "string",
+      "wsdlEndpointName": "string"
+    },
+    "apiType": "string"
+  },
+  "resources": []
+}
+ 

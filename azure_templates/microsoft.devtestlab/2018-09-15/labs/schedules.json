@@ -1,0 +1,33 @@
+{
+  "name": "string",
+  "type": "Microsoft.DevTestLab/labs/schedules",
+  "apiVersion": "2018-09-15",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "status": "string",
+    "taskType": "string",
+    "weeklyRecurrence": {
+      "weekdays": [
+        "string"
+      ],
+      "time": "string"
+    },
+    "dailyRecurrence": {
+      "time": "string"
+    },
+    "hourlyRecurrence": {
+      "minute": "integer"
+    },
+    "timeZoneId": "string",
+    "notificationSettings": {
+      "status": "string",
+      "timeInMinutes": "integer",
+      "webhookUrl": "string",
+      "emailRecipient": "string",
+      "notificationLocale": "string"
+    },
+    "targetResourceId": "string"
+  }
+}
+ 

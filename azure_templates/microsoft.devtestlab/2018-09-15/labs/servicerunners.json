@@ -1,0 +1,14 @@
+{
+  "name": "string",
+  "type": "Microsoft.DevTestLab/labs/servicerunners",
+  "apiVersion": "2018-09-15",
+  "location": "string",
+  "tags": {},
+  "identity": {
+    "type": "string",
+    "principalId": "string",
+    "tenantId": "string",
+    "clientSecretUrl": "string"
+  }
+}
+ 

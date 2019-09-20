@@ -1,0 +1,9 @@
+{
+  "name": "default",
+  "type": "Microsoft.Storage/storageAccounts/blobServices/containers/immutabilityPolicies",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "immutabilityPeriodSinceCreationInDays": "integer"
+  }
+}
+ 

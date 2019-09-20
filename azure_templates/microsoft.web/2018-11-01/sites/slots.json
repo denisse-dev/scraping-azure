@@ -1,0 +1,231 @@
+{
+  "name": "string",
+  "type": "Microsoft.Web/sites/slots",
+  "apiVersion": "2018-11-01",
+  "kind": "string",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "enabled": "boolean",
+    "hostNameSslStates": [
+      {
+        "name": "string",
+        "sslState": "string",
+        "virtualIP": "string",
+        "thumbprint": "string",
+        "toUpdate": "boolean",
+        "hostType": "string"
+      }
+    ],
+    "serverFarmId": "string",
+    "reserved": "boolean",
+    "isXenon": "boolean",
+    "hyperV": "boolean",
+    "siteConfig": {
+      "numberOfWorkers": "integer",
+      "defaultDocuments": [
+        "string"
+      ],
+      "netFrameworkVersion": "string",
+      "phpVersion": "string",
+      "pythonVersion": "string",
+      "nodeVersion": "string",
+      "linuxFxVersion": "string",
+      "windowsFxVersion": "string",
+      "requestTracingEnabled": "boolean",
+      "requestTracingExpirationTime": "string",
+      "remoteDebuggingEnabled": "boolean",
+      "remoteDebuggingVersion": "string",
+      "httpLoggingEnabled": "boolean",
+      "logsDirectorySizeLimit": "integer",
+      "detailedErrorLoggingEnabled": "boolean",
+      "publishingUsername": "string",
+      "appSettings": [
+        {
+          "name": "string",
+          "value": "string"
+        }
+      ],
+      "azureStorageAccounts": {},
+      "connectionStrings": [
+        {
+          "name": "string",
+          "connectionString": "string",
+          "type": "string"
+        }
+      ],
+      "handlerMappings": [
+        {
+          "extension": "string",
+          "scriptProcessor": "string",
+          "arguments": "string"
+        }
+      ],
+      "documentRoot": "string",
+      "scmType": "string",
+      "use32BitWorkerProcess": "boolean",
+      "webSocketsEnabled": "boolean",
+      "alwaysOn": "boolean",
+      "javaVersion": "string",
+      "javaContainer": "string",
+      "javaContainerVersion": "string",
+      "appCommandLine": "string",
+      "managedPipelineMode": "string",
+      "virtualApplications": [
+        {
+          "virtualPath": "string",
+          "physicalPath": "string",
+          "preloadEnabled": "boolean",
+          "virtualDirectories": [
+            {
+              "virtualPath": "string",
+              "physicalPath": "string"
+            }
+          ]
+        }
+      ],
+      "loadBalancing": "string",
+      "experiments": {
+        "rampUpRules": [
+          {
+            "actionHostName": "string",
+            "reroutePercentage": "number",
+            "changeStep": "number",
+            "changeIntervalInMinutes": "integer",
+            "minReroutePercentage": "number",
+            "maxReroutePercentage": "number",
+            "changeDecisionCallbackUrl": "string",
+            "name": "string"
+          }
+        ]
+      },
+      "limits": {
+        "maxPercentageCpu": "number",
+        "maxMemoryInMb": "integer",
+        "maxDiskSizeInMb": "integer"
+      },
+      "autoHealEnabled": "boolean",
+      "autoHealRules": {
+        "triggers": {
+          "requests": {
+            "count": "integer",
+            "timeInterval": "string"
+          },
+          "privateBytesInKB": "integer",
+          "statusCodes": [
+            {
+              "status": "integer",
+              "subStatus": "integer",
+              "win32Status": "integer",
+              "count": "integer",
+              "timeInterval": "string"
+            }
+          ],
+          "slowRequests": {
+            "timeTaken": "string",
+            "count": "integer",
+            "timeInterval": "string"
+          }
+        },
+        "actions": {
+          "actionType": "string",
+          "customAction": {
+            "exe": "string",
+            "parameters": "string"
+          },
+          "minProcessExecutionTime": "string"
+        }
+      },
+      "tracingOptions": "string",
+      "vnetName": "string",
+      "cors": {
+        "allowedOrigins": [
+          "string"
+        ],
+        "supportCredentials": "boolean"
+      },
+      "push": {
+        "kind": "string",
+        "properties": {
+          "isPushEnabled": "boolean",
+          "tagWhitelistJson": "string",
+          "tagsRequiringAuth": "string",
+          "dynamicTagsJson": "string"
+        }
+      },
+      "apiDefinition": {
+        "url": "string"
+      },
+      "autoSwapSlotName": "string",
+      "localMySqlEnabled": "boolean",
+      "managedServiceIdentityId": "integer",
+      "xManagedServiceIdentityId": "integer",
+      "ipSecurityRestrictions": [
+        {
+          "ipAddress": "string",
+          "subnetMask": "string",
+          "vnetSubnetResourceId": "string",
+          "action": "string",
+          "tag": "string",
+          "priority": "integer",
+          "name": "string",
+          "description": "string"
+        }
+      ],
+      "scmIpSecurityRestrictions": [
+        {
+          "ipAddress": "string",
+          "subnetMask": "string",
+          "vnetSubnetResourceId": "string",
+          "action": "string",
+          "tag": "string",
+          "priority": "integer",
+          "name": "string",
+          "description": "string"
+        }
+      ],
+      "scmIpSecurityRestrictionsUseMain": "boolean",
+      "http20Enabled": "boolean",
+      "minTlsVersion": "string",
+      "ftpsState": "string",
+      "reservedInstanceCount": "integer"
+    },
+    "scmSiteAlsoStopped": "boolean",
+    "hostingEnvironmentProfile": {
+      "id": "string"
+    },
+    "clientAffinityEnabled": "boolean",
+    "clientCertEnabled": "boolean",
+    "clientCertExclusionPaths": "string",
+    "hostNamesDisabled": "boolean",
+    "containerSize": "integer",
+    "dailyMemoryTimeQuota": "integer",
+    "cloningInfo": {
+      "correlationId": "string",
+      "overwrite": "boolean",
+      "cloneCustomHostNames": "boolean",
+      "cloneSourceControl": "boolean",
+      "sourceWebAppId": "string",
+      "sourceWebAppLocation": "string",
+      "hostingEnvironment": "string",
+      "appSettingsOverrides": {},
+      "configureLoadBalancing": "boolean",
+      "trafficManagerProfileId": "string",
+      "trafficManagerProfileName": "string"
+    },
+    "httpsOnly": "boolean",
+    "redundancyMode": "string",
+    "geoDistributions": [
+      {
+        "location": "string",
+        "numberOfWorkers": "integer"
+      }
+    ]
+  },
+  "identity": {
+    "type": "string",
+    "userAssignedIdentities": {}
+  },
+  "resources": []
+}
+ 

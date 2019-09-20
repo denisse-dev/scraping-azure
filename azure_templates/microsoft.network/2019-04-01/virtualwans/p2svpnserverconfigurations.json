@@ -1,0 +1,62 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/virtualWans/p2sVpnServerConfigurations",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "name": "string",
+    "vpnProtocols": [
+      "string"
+    ],
+    "p2SVpnServerConfigVpnClientRootCertificates": [
+      {
+        "id": "string",
+        "properties": {
+          "publicCertData": "string"
+        },
+        "name": "string"
+      }
+    ],
+    "p2SVpnServerConfigVpnClientRevokedCertificates": [
+      {
+        "id": "string",
+        "properties": {
+          "thumbprint": "string"
+        },
+        "name": "string"
+      }
+    ],
+    "p2SVpnServerConfigRadiusServerRootCertificates": [
+      {
+        "id": "string",
+        "properties": {
+          "publicCertData": "string"
+        },
+        "name": "string"
+      }
+    ],
+    "p2SVpnServerConfigRadiusClientRootCertificates": [
+      {
+        "id": "string",
+        "properties": {
+          "thumbprint": "string"
+        },
+        "name": "string"
+      }
+    ],
+    "vpnClientIpsecPolicies": [
+      {
+        "saLifeTimeSeconds": "integer",
+        "saDataSizeKilobytes": "integer",
+        "ipsecEncryption": "string",
+        "ipsecIntegrity": "string",
+        "ikeEncryption": "string",
+        "ikeIntegrity": "string",
+        "dhGroup": "string",
+        "pfsGroup": "string"
+      }
+    ],
+    "radiusServerAddress": "string",
+    "radiusServerSecret": "string"
+  }
+}
+ 

@@ -1,0 +1,9 @@
+{
+  "name": "string",
+  "type": "Microsoft.Cdn/profiles/endpoints/customDomains",
+  "apiVersion": "2019-04-15",
+  "properties": {
+    "hostName": "string"
+  }
+}
+ 

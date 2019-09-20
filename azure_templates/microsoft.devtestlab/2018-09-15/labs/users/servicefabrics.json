@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.DevTestLab/labs/users/servicefabrics",
+  "apiVersion": "2018-09-15",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "externalServiceFabricId": "string",
+    "environmentId": "string"
+  },
+  "resources": []
+}
+ 

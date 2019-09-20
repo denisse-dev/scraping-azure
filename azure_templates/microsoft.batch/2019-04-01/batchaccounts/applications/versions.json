@@ -1,0 +1,7 @@
+{
+  "name": "string",
+  "type": "Microsoft.Batch/batchAccounts/applications/versions",
+  "apiVersion": "2019-04-01",
+  "properties": {}
+}
+ 

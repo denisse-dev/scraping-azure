@@ -1,0 +1,25 @@
+{
+  "name": "string",
+  "type": "Microsoft.DataFactory/factories/datasets",
+  "apiVersion": "2018-06-01",
+  "properties": {
+    "additionalProperties": {},
+    "description": "string",
+    "structure": {},
+    "schema": {},
+    "linkedServiceName": {
+      "type": "LinkedServiceReference",
+      "referenceName": "string",
+      "parameters": {}
+    },
+    "parameters": {},
+    "annotations": [
+      {}
+    ],
+    "folder": {
+      "name": "string"
+    },
+    "type": "string"
+  }
+}
+ 

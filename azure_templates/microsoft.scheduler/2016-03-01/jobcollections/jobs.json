@@ -1,0 +1,190 @@
+{
+  "name": "string",
+  "type": "Microsoft.Scheduler/jobCollections/jobs",
+  "apiVersion": "2016-03-01",
+  "properties": {
+    "startTime": "string",
+    "action": {
+      "type": "string",
+      "request": {
+        "authentication": {
+          "type": "string"
+        },
+        "uri": "string",
+        "method": "string",
+        "body": "string",
+        "headers": {}
+      },
+      "queueMessage": {
+        "storageAccount": "string",
+        "queueName": "string",
+        "sasToken": "string",
+        "message": "string"
+      },
+      "serviceBusQueueMessage": {
+        "authentication": {
+          "sasKey": "string",
+          "sasKeyName": "string",
+          "type": "string"
+        },
+        "brokeredMessageProperties": {
+          "contentType": "string",
+          "correlationId": "string",
+          "forcePersistence": "boolean",
+          "label": "string",
+          "messageId": "string",
+          "partitionKey": "string",
+          "replyTo": "string",
+          "replyToSessionId": "string",
+          "scheduledEnqueueTimeUtc": "string",
+          "sessionId": "string",
+          "timeToLive": "string",
+          "to": "string",
+          "viaPartitionKey": "string"
+        },
+        "customMessageProperties": {},
+        "message": "string",
+        "namespace": "string",
+        "transportType": "string",
+        "queueName": "string"
+      },
+      "serviceBusTopicMessage": {
+        "authentication": {
+          "sasKey": "string",
+          "sasKeyName": "string",
+          "type": "string"
+        },
+        "brokeredMessageProperties": {
+          "contentType": "string",
+          "correlationId": "string",
+          "forcePersistence": "boolean",
+          "label": "string",
+          "messageId": "string",
+          "partitionKey": "string",
+          "replyTo": "string",
+          "replyToSessionId": "string",
+          "scheduledEnqueueTimeUtc": "string",
+          "sessionId": "string",
+          "timeToLive": "string",
+          "to": "string",
+          "viaPartitionKey": "string"
+        },
+        "customMessageProperties": {},
+        "message": "string",
+        "namespace": "string",
+        "transportType": "string",
+        "topicPath": "string"
+      },
+      "retryPolicy": {
+        "retryType": "string",
+        "retryInterval": "string",
+        "retryCount": "integer"
+      },
+      "errorAction": {
+        "type": "string",
+        "request": {
+          "authentication": {
+            "type": "string"
+          },
+          "uri": "string",
+          "method": "string",
+          "body": "string",
+          "headers": {}
+        },
+        "queueMessage": {
+          "storageAccount": "string",
+          "queueName": "string",
+          "sasToken": "string",
+          "message": "string"
+        },
+        "serviceBusQueueMessage": {
+          "authentication": {
+            "sasKey": "string",
+            "sasKeyName": "string",
+            "type": "string"
+          },
+          "brokeredMessageProperties": {
+            "contentType": "string",
+            "correlationId": "string",
+            "forcePersistence": "boolean",
+            "label": "string",
+            "messageId": "string",
+            "partitionKey": "string",
+            "replyTo": "string",
+            "replyToSessionId": "string",
+            "scheduledEnqueueTimeUtc": "string",
+            "sessionId": "string",
+            "timeToLive": "string",
+            "to": "string",
+            "viaPartitionKey": "string"
+          },
+          "customMessageProperties": {},
+          "message": "string",
+          "namespace": "string",
+          "transportType": "string",
+          "queueName": "string"
+        },
+        "serviceBusTopicMessage": {
+          "authentication": {
+            "sasKey": "string",
+            "sasKeyName": "string",
+            "type": "string"
+          },
+          "brokeredMessageProperties": {
+            "contentType": "string",
+            "correlationId": "string",
+            "forcePersistence": "boolean",
+            "label": "string",
+            "messageId": "string",
+            "partitionKey": "string",
+            "replyTo": "string",
+            "replyToSessionId": "string",
+            "scheduledEnqueueTimeUtc": "string",
+            "sessionId": "string",
+            "timeToLive": "string",
+            "to": "string",
+            "viaPartitionKey": "string"
+          },
+          "customMessageProperties": {},
+          "message": "string",
+          "namespace": "string",
+          "transportType": "string",
+          "topicPath": "string"
+        },
+        "retryPolicy": {
+          "retryType": "string",
+          "retryInterval": "string",
+          "retryCount": "integer"
+        }
+      }
+    },
+    "recurrence": {
+      "frequency": "string",
+      "interval": "integer",
+      "count": "integer",
+      "endTime": "string",
+      "schedule": {
+        "weekDays": [
+          "string"
+        ],
+        "hours": [
+          "integer"
+        ],
+        "minutes": [
+          "integer"
+        ],
+        "monthDays": [
+          "integer"
+        ],
+        "monthlyOccurrences": [
+          {
+            "day": "string",
+            "Occurrence": "integer"
+          }
+        ]
+      }
+    },
+    "state": "string"
+  }
+}
+ 

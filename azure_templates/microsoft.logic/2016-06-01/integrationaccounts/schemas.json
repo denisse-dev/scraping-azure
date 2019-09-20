@@ -1,0 +1,17 @@
+{
+  "name": "string",
+  "type": "Microsoft.Logic/integrationAccounts/schemas",
+  "apiVersion": "2016-06-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "schemaType": "string",
+    "targetNamespace": "string",
+    "documentName": "string",
+    "fileName": "string",
+    "metadata": {},
+    "content": "string",
+    "contentType": "string"
+  }
+}
+ 

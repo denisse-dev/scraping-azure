@@ -1,0 +1,17 @@
+{
+  "name": "string",
+  "type": "Microsoft.Web/sites/slots/hostNameBindings",
+  "apiVersion": "2018-11-01",
+  "kind": "string",
+  "properties": {
+    "siteName": "string",
+    "domainId": "string",
+    "azureResourceName": "string",
+    "azureResourceType": "string",
+    "customHostNameDnsRecordType": "string",
+    "hostNameType": "string",
+    "sslState": "string",
+    "thumbprint": "string"
+  }
+}
+ 

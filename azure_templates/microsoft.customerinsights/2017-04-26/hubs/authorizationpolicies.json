@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.CustomerInsights/hubs/authorizationPolicies",
+  "apiVersion": "2017-04-26",
+  "properties": {
+    "permissions": [
+      "string"
+    ],
+    "primaryKey": "string",
+    "secondaryKey": "string"
+  }
+}
+ 

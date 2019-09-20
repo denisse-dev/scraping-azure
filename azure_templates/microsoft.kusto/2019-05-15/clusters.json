@@ -1,0 +1,37 @@
+{
+  "name": "string",
+  "type": "Microsoft.Kusto/clusters",
+  "apiVersion": "2019-05-15",
+  "tags": {},
+  "location": "string",
+  "sku": {
+    "name": "string",
+    "capacity": "integer",
+    "tier": "string"
+  },
+  "zones": [
+    "string"
+  ],
+  "properties": {
+    "trustedExternalTenants": [
+      {
+        "value": "string"
+      }
+    ],
+    "optimizedAutoscale": {
+      "version": "integer",
+      "isEnabled": "boolean",
+      "minimum": "integer",
+      "maximum": "integer"
+    },
+    "enableDiskEncryption": "boolean",
+    "enableStreamingIngest": "boolean",
+    "virtualNetworkConfiguration": {
+      "subnetId": "string",
+      "enginePublicIpId": "string",
+      "dataManagementPublicIpId": "string"
+    }
+  },
+  "resources": []
+}
+ 

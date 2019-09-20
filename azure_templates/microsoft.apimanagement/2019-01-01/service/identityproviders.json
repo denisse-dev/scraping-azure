@@ -1,0 +1,19 @@
+{
+  "name": "string",
+  "type": "Microsoft.ApiManagement/service/identityProviders",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "type": "string",
+    "allowedTenants": [
+      "string"
+    ],
+    "authority": "string",
+    "signupPolicyName": "string",
+    "signinPolicyName": "string",
+    "profileEditingPolicyName": "string",
+    "passwordResetPolicyName": "string",
+    "clientId": "string",
+    "clientSecret": "string"
+  }
+}
+ 

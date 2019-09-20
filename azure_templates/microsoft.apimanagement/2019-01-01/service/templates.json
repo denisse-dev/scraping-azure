@@ -1,0 +1,19 @@
+{
+  "name": "string",
+  "type": "Microsoft.ApiManagement/service/templates",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "subject": "string",
+    "title": "string",
+    "description": "string",
+    "body": "string",
+    "parameters": [
+      {
+        "name": "string",
+        "title": "string",
+        "description": "string"
+      }
+    ]
+  }
+}
+ 

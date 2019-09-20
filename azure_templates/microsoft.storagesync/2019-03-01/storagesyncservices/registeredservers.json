@@ -1,0 +1,17 @@
+{
+  "name": "string",
+  "type": "Microsoft.StorageSync/storageSyncServices/registeredServers",
+  "apiVersion": "2019-03-01",
+  "properties": {
+    "serverCertificate": "string",
+    "agentVersion": "string",
+    "serverOSVersion": "string",
+    "lastHeartBeat": "string",
+    "serverRole": "string",
+    "clusterId": "string",
+    "clusterName": "string",
+    "serverId": "string",
+    "friendlyName": "string"
+  }
+}
+ 

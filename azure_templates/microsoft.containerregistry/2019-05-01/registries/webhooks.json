@@ -1,0 +1,17 @@
+{
+  "name": "string",
+  "type": "Microsoft.ContainerRegistry/registries/webhooks",
+  "apiVersion": "2019-05-01",
+  "tags": {},
+  "location": "string",
+  "properties": {
+    "serviceUri": "string",
+    "customHeaders": {},
+    "status": "string",
+    "scope": "string",
+    "actions": [
+      "string"
+    ]
+  }
+}
+ 

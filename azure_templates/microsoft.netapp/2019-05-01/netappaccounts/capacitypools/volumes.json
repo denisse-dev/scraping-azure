@@ -1,0 +1,33 @@
+{
+  "name": "string",
+  "type": "Microsoft.NetApp/netAppAccounts/capacityPools/volumes",
+  "apiVersion": "2019-05-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "creationToken": "string",
+    "serviceLevel": "string",
+    "usageThreshold": "integer",
+    "exportPolicy": {
+      "rules": [
+        {
+          "ruleIndex": "integer",
+          "unixReadOnly": "boolean",
+          "unixReadWrite": "boolean",
+          "cifs": "boolean",
+          "nfsv3": "boolean",
+          "nfsv4": "boolean",
+          "allowedClients": "string"
+        }
+      ]
+    },
+    "protocolTypes": [
+      "string"
+    ],
+    "snapshotId": "string",
+    "subnetId": "string",
+    "mountTargets": {}
+  },
+  "resources": []
+}
+ 

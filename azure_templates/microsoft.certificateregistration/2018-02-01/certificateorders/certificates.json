@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.CertificateRegistration/certificateOrders/certificates",
+  "apiVersion": "2018-02-01",
+  "kind": "string",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "keyVaultId": "string",
+    "keyVaultSecretName": "string"
+  }
+}
+ 

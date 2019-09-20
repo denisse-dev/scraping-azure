@@ -1,0 +1,11 @@
+{
+  "IotHubResourceId": "string",
+  "consumerGroup": "string",
+  "tableName": "string",
+  "mappingRuleName": "string",
+  "dataFormat": "string",
+  "eventSystemProperties": [
+  ],
+  "sharedAccessPolicyName": "string"
+}
+ 

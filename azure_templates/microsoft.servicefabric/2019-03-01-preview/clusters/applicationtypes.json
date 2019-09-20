@@ -1,0 +1,10 @@
+{
+  "name": "string",
+  "type": "Microsoft.ServiceFabric/clusters/applicationTypes",
+  "apiVersion": "2019-03-01-preview",
+  "location": "string",
+  "tags": {},
+  "properties": {},
+  "resources": []
+}
+ 

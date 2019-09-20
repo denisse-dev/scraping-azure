@@ -1,0 +1,9 @@
+{
+  "name": "string",
+  "type": "Microsoft.DataFactory/factories/triggers/rerunTriggers",
+  "apiVersion": "2018-06-01",
+  "startTime": "string",
+  "endTime": "string",
+  "maxConcurrency": "integer"
+}
+ 

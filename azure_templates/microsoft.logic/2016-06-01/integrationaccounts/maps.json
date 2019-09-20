@@ -1,0 +1,17 @@
+{
+  "name": "string",
+  "type": "Microsoft.Logic/integrationAccounts/maps",
+  "apiVersion": "2016-06-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "mapType": "string",
+    "parametersSchema": {
+      "ref": "string"
+    },
+    "content": "string",
+    "contentType": "string",
+    "metadata": {}
+  }
+}
+ 

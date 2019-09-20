@@ -1,0 +1,16 @@
+{
+  "name": "string",
+  "type": "Microsoft.DevTestLab/labs/policysets/policies",
+  "apiVersion": "2018-09-15",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "description": "string",
+    "status": "string",
+    "factName": "string",
+    "factData": "string",
+    "threshold": "string",
+    "evaluatorType": "string"
+  }
+}
+ 

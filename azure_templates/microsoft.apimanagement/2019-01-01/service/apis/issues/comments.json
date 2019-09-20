@@ -1,0 +1,10 @@
+{
+  "name": "string",
+  "type": "Microsoft.ApiManagement/service/apis/issues/comments",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "text": "string",
+    "userId": "string"
+  }
+}
+ 

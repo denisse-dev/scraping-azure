@@ -1,0 +1,11 @@
+{
+  "name": "string",
+  "type": "Microsoft.Relay/namespaces/authorizationRules",
+  "apiVersion": "2017-04-01",
+  "properties": {
+    "rights": [
+      "string"
+    ]
+  }
+}
+ 

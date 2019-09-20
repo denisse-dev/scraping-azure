@@ -1,0 +1,50 @@
+{
+  "name": "string",
+  "type": "Microsoft.RecoveryServices/vaults/replicationRecoveryPlans",
+  "apiVersion": "2018-07-10",
+  "properties": {
+    "primaryFabricId": "string",
+    "recoveryFabricId": "string",
+    "failoverDeploymentModel": "string",
+    "groups": [
+      {
+        "groupType": "string",
+        "replicationProtectedItems": [
+          {
+            "id": "string",
+            "virtualMachineId": "string"
+          }
+        ],
+        "startGroupActions": [
+          {
+            "actionName": "string",
+            "failoverTypes": [
+              "string"
+            ],
+            "failoverDirections": [
+              "string"
+            ],
+            "customDetails": {
+              "instanceType": "string"
+            }
+          }
+        ],
+        "endGroupActions": [
+          {
+            "actionName": "string",
+            "failoverTypes": [
+              "string"
+            ],
+            "failoverDirections": [
+              "string"
+            ],
+            "customDetails": {
+              "instanceType": "string"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
+ 

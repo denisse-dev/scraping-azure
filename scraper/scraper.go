@@ -27,7 +27,6 @@ func DownloadReference() error {
 	referenceUrl := "http://docs.microsoft.com/en-us/azure/templates/toc.json"
 	response, err := http.Get(referenceUrl)
 	if err != nil {
-		fmt.Println(err)
 		return err
 	}
 	defer response.Body.Close()
@@ -43,8 +42,11 @@ func DownloadReference() error {
 		return err
 	}
 
-	err = referenceWriter(cleanBody)
-	if err != nil {
+	if err = referenceWriter(cleanBody); err != nil {
+		return err
+	}
+
+	if err = childIterator(cleanBody); err != nil {
 		fmt.Println(err)
 		return err
 	}
@@ -80,6 +82,114 @@ func referenceWriter(cleanBody []byte) error {
 	return nil
 }
 
+func childIterator(cleanBody []byte) error {
+	var data []Node
+	err := json.Unmarshal(cleanBody, &data)
+	fmt.Println("ERR: ", err)
+
+	for _, v := range data {
+		for i, v := range v.Children {
+			if i > 1 {
+				continue
+			}
+			for _, v := range v.Children {
+				if v.Href != "" {
+					if err := getAndSave(v.Href); err != nil {
+						return err
+					}
+					continue
+				}
+				for _, v := range v.Children {
+					if v.Href != "" {
+						if err := getAndSave(v.Href); err != nil {
+							return err
+						}
+						continue
+					}
+					for _, v := range v.Children {
+						if v.Href != "" {
+							if err := getAndSave(v.Href); err != nil {
+								return err
+							}
+							continue
+						}
+						for _, v := range v.Children {
+							if v.Href != "" {
+								if err := getAndSave(v.Href); err != nil {
+									return err
+								}
+								continue
+							}
+							for _, v := range v.Children {
+								if v.Href != "" {
+									if err := getAndSave(v.Href); err != nil {
+										return err
+									}
+									continue
+								}
+								for _, v := range v.Children {
+									if err := getAndSave(v.Href); err != nil {
+										return err
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	return nil
+}
+
+func getAndSave(refUrl string) error {
+	res, url, err := getSpec(fmt.Sprintf("%s", refUrl))
+	if err != nil {
+		return err
+	}
+	saveSpec(res, url)
+
+	return nil
+}
+
+func flatNodes(top Node) []Info {
+	output := []Info{Info{
+		top.Title,
+		top.Href,
+	}}
+
+	if len(top.Children) < 1 {
+		return output
+	}
+
+	for _, c := range top.Children {
+		outcome := flatNodes(c)
+		output = append(output, outcome...)
+	}
+
+	return output
+}
+
+func getSpec(path string) (resource string, resURL string, err error) {
+	var url strings.Builder
+	url.WriteString("https://docs.microsoft.com/en-us/azure/templates/" + path)
+
+	c := colly.NewCollector()
+
+	c.OnHTML("code.lang-json", func(e *colly.HTMLElement) {
+		resource = fmt.Sprintf("%v", *e)
+		resource = strings.TrimPrefix(resource, "{code ")
+		resource = resource[:strings.LastIndex(resource, "[{ class lang-json}]")]
+	})
+
+	if err := c.Visit(url.String()); err != nil {
+		return "", "", err
+	}
+
+	return resource, url.String(), nil
+}
+
 func saveSpec(spec string, url string) {
 	if spec == "" || url == "" {
 		fmt.Println("Can't be!")
@@ -104,23 +214,4 @@ func saveSpec(spec string, url string) {
 	if err := ioutil.WriteFile(file.String(), []byte(spec), os.ModePerm); err != nil {
 		panic(err)
 	}
-}
-
-func getSpec(path string) (resource string, resURL string, err error) {
-	var url strings.Builder
-	url.WriteString("https://docs.microsoft.com/en-us/azure/templates/" + path)
-
-	c := colly.NewCollector()
-
-	c.OnHTML("code.lang-json", func(e *colly.HTMLElement) {
-		resource = fmt.Sprintf("%v", *e)
-		resource = strings.TrimPrefix(resource, "{code ")
-		resource = resource[:strings.LastIndex(resource, "[{ class lang-json}]")]
-	})
-
-	if err := c.Visit(url.String()); err != nil {
-		return "", "", err
-	}
-
-	return resource, url.String(), nil
 }

@@ -1,0 +1,24 @@
+{
+  "name": "string",
+  "type": "Microsoft.ServiceBus/namespaces/queues",
+  "apiVersion": "2017-04-01",
+  "properties": {
+    "lockDuration": "string",
+    "maxSizeInMegabytes": "integer",
+    "requiresDuplicateDetection": "boolean",
+    "requiresSession": "boolean",
+    "defaultMessageTimeToLive": "string",
+    "deadLetteringOnMessageExpiration": "boolean",
+    "duplicateDetectionHistoryTimeWindow": "string",
+    "maxDeliveryCount": "integer",
+    "status": "string",
+    "enableBatchedOperations": "boolean",
+    "autoDeleteOnIdle": "string",
+    "enablePartitioning": "boolean",
+    "enableExpress": "boolean",
+    "forwardTo": "string",
+    "forwardDeadLetteredMessagesTo": "string"
+  },
+  "resources": []
+}
+ 

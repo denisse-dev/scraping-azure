@@ -1,0 +1,7 @@
+{
+  "name": "string",
+  "type": "Microsoft.Devices/provisioningServices/certificates",
+  "apiVersion": "2018-01-22",
+  "certificate": "string"
+}
+ 

@@ -1,0 +1,51 @@
+{
+  "name": "string",
+  "type": "Microsoft.ApiManagement/service/apis/diagnostics",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "alwaysLog": "allErrors",
+    "loggerId": "string",
+    "sampling": {
+      "samplingType": "fixed",
+      "percentage": "number"
+    },
+    "frontend": {
+      "request": {
+        "headers": [
+          "string"
+        ],
+        "body": {
+          "bytes": "integer"
+        }
+      },
+      "response": {
+        "headers": [
+          "string"
+        ],
+        "body": {
+          "bytes": "integer"
+        }
+      }
+    },
+    "backend": {
+      "request": {
+        "headers": [
+          "string"
+        ],
+        "body": {
+          "bytes": "integer"
+        }
+      },
+      "response": {
+        "headers": [
+          "string"
+        ],
+        "body": {
+          "bytes": "integer"
+        }
+      }
+    },
+    "enableHttpCorrelationHeaders": "boolean"
+  }
+}
+ 

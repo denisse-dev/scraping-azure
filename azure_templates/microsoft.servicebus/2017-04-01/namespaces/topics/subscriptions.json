@@ -1,0 +1,21 @@
+{
+  "name": "string",
+  "type": "Microsoft.ServiceBus/namespaces/topics/subscriptions",
+  "apiVersion": "2017-04-01",
+  "properties": {
+    "lockDuration": "string",
+    "requiresSession": "boolean",
+    "defaultMessageTimeToLive": "string",
+    "deadLetteringOnFilterEvaluationExceptions": "boolean",
+    "deadLetteringOnMessageExpiration": "boolean",
+    "duplicateDetectionHistoryTimeWindow": "string",
+    "maxDeliveryCount": "integer",
+    "status": "string",
+    "enableBatchedOperations": "boolean",
+    "autoDeleteOnIdle": "string",
+    "forwardTo": "string",
+    "forwardDeadLetteredMessagesTo": "string"
+  },
+  "resources": []
+}
+ 

@@ -1,0 +1,14 @@
+{
+  "name": "string",
+  "type": "Microsoft.ApiManagement/service/apis/issues",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "state": "string",
+    "apiId": "string",
+    "title": "string",
+    "description": "string",
+    "userId": "string"
+  },
+  "resources": []
+}
+ 

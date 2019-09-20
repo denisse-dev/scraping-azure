@@ -1,0 +1,37 @@
+{
+  "name": "default",
+  "type": "Microsoft.Storage/storageAccounts/blobServices",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "cors": {
+      "corsRules": [
+        {
+          "allowedOrigins": [
+            "string"
+          ],
+          "allowedMethods": [
+            "string"
+          ],
+          "maxAgeInSeconds": "integer",
+          "exposedHeaders": [
+            "string"
+          ],
+          "allowedHeaders": [
+            "string"
+          ]
+        }
+      ]
+    },
+    "defaultServiceVersion": "string",
+    "deleteRetentionPolicy": {
+      "enabled": "boolean",
+      "days": "integer"
+    },
+    "automaticSnapshotPolicyEnabled": "boolean",
+    "changeFeed": {
+      "enabled": "boolean"
+    }
+  },
+  "resources": []
+}
+ 

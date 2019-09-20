@@ -1,0 +1,19 @@
+{
+  "name": "string",
+  "type": "Microsoft.DevTestLab/labs/notificationchannels",
+  "apiVersion": "2018-09-15",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "webHookUrl": "string",
+    "emailRecipient": "string",
+    "notificationLocale": "string",
+    "description": "string",
+    "events": [
+      {
+        "eventName": "string"
+      }
+    ]
+  }
+}
+ 

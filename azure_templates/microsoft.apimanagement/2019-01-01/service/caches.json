@@ -1,0 +1,11 @@
+{
+  "name": "string",
+  "type": "Microsoft.ApiManagement/service/caches",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "description": "string",
+    "connectionString": "string",
+    "resourceId": "string"
+  }
+}
+ 

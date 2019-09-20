@@ -1,0 +1,12 @@
+{
+  "name": "string",
+  "type": "Microsoft.DataLakeAnalytics/accounts/computePolicies",
+  "apiVersion": "2016-11-01",
+  "properties": {
+    "objectId": "string",
+    "objectType": "string",
+    "maxDegreeOfParallelismPerJob": "integer",
+    "minPriorityPerJob": "integer"
+  }
+}
+ 

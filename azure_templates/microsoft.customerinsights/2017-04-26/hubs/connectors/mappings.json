@@ -1,0 +1,46 @@
+{
+  "name": "string",
+  "type": "Microsoft.CustomerInsights/hubs/connectors/mappings",
+  "apiVersion": "2017-04-26",
+  "properties": {
+    "connectorType": "string",
+    "entityType": "string",
+    "entityTypeName": "string",
+    "displayName": "string",
+    "description": "string",
+    "mappingProperties": {
+      "folderPath": "string",
+      "fileFilter": "string",
+      "hasHeader": "boolean",
+      "errorManagement": {
+        "errorManagementType": "string",
+        "errorLimit": "integer"
+      },
+      "format": {
+        "formatType": "TextFormat",
+        "columnDelimiter": "string",
+        "acceptLanguage": "string",
+        "quoteCharacter": "string",
+        "quoteEscapeCharacter": "string",
+        "arraySeparator": "string"
+      },
+      "availability": {
+        "frequency": "string",
+        "interval": "integer"
+      },
+      "structure": [
+        {
+          "propertyName": "string",
+          "columnName": "string",
+          "customFormatSpecifier": "string",
+          "isEncrypted": "boolean"
+        }
+      ],
+      "completeOperation": {
+        "completionOperationType": "string",
+        "destinationFolder": "string"
+      }
+    }
+  }
+}
+ 

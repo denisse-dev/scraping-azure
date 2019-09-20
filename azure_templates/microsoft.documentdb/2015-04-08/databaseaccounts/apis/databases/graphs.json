@@ -1,0 +1,54 @@
+{
+  "name": "string",
+  "type": "Microsoft.DocumentDB/databaseAccounts/apis/databases/graphs",
+  "apiVersion": "2015-04-08",
+  "properties": {
+    "resource": {
+      "id": "string",
+      "indexingPolicy": {
+        "automatic": "boolean",
+        "indexingMode": "string",
+        "includedPaths": [
+          {
+            "path": "string",
+            "indexes": [
+              {
+                "dataType": "string",
+                "precision": "integer",
+                "kind": "string"
+              }
+            ]
+          }
+        ],
+        "excludedPaths": [
+          {
+            "path": "string"
+          }
+        ]
+      },
+      "partitionKey": {
+        "paths": [
+          "string"
+        ],
+        "kind": "string"
+      },
+      "defaultTtl": "integer",
+      "uniqueKeyPolicy": {
+        "uniqueKeys": [
+          {
+            "paths": [
+              "string"
+            ]
+          }
+        ]
+      },
+      "conflictResolutionPolicy": {
+        "mode": "string",
+        "conflictResolutionPath": "string",
+        "conflictResolutionProcedure": "string"
+      }
+    },
+    "options": {}
+  }
+}
+ 

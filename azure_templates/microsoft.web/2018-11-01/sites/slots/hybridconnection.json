@@ -1,0 +1,16 @@
+{
+  "name": "string",
+  "type": "Microsoft.Web/sites/slots/hybridconnection",
+  "apiVersion": "2018-11-01",
+  "kind": "string",
+  "properties": {
+    "entityName": "string",
+    "entityConnectionString": "string",
+    "resourceType": "string",
+    "resourceConnectionString": "string",
+    "hostname": "string",
+    "port": "integer",
+    "biztalkUri": "string"
+  }
+}
+ 

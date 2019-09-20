@@ -1,0 +1,11 @@
+{
+  "name": "string",
+  "type": "Microsoft.AAD/domainServices/replicaSets",
+  "apiVersion": "2017-06-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "subnetId": "string"
+  }
+}
+ 

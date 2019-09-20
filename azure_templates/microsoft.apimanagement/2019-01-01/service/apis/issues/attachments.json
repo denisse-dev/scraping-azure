@@ -1,0 +1,11 @@
+{
+  "name": "string",
+  "type": "Microsoft.ApiManagement/service/apis/issues/attachments",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "title": "string",
+    "contentFormat": "string",
+    "content": "string"
+  }
+}
+ 

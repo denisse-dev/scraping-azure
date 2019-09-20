@@ -1,0 +1,44 @@
+{
+  "name": "string",
+  "type": "Microsoft.Media/mediaservices/streamingEndpoints",
+  "apiVersion": "2018-07-01",
+  "tags": {},
+  "location": "string",
+  "properties": {
+    "description": "string",
+    "scaleUnits": "integer",
+    "availabilitySetName": "string",
+    "accessControl": {
+      "akamai": {
+        "akamaiSignatureHeaderAuthenticationKeyList": [
+          {
+            "identifier": "string",
+            "base64Key": "string",
+            "expiration": "string"
+          }
+        ]
+      },
+      "ip": {
+        "allow": [
+          {
+            "name": "string",
+            "address": "string",
+            "subnetPrefixLength": "integer"
+          }
+        ]
+      }
+    },
+    "maxCacheAge": "integer",
+    "customHostNames": [
+      "string"
+    ],
+    "cdnEnabled": "boolean",
+    "cdnProvider": "string",
+    "cdnProfile": "string",
+    "crossSiteAccessPolicies": {
+      "clientAccessPolicy": "string",
+      "crossDomainPolicy": "string"
+    }
+  }
+}
+ 

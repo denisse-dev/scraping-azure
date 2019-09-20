@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.ApiManagement/service/apiVersionSets",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "description": "string",
+    "versionQueryName": "string",
+    "versionHeaderName": "string",
+    "displayName": "string",
+    "versioningScheme": "string"
+  }
+}
+ 

@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.RecoveryServices/vaults/replicationFabrics/replicationvCenters",
+  "apiVersion": "2018-07-10",
+  "properties": {
+    "friendlyName": "string",
+    "ipAddress": "string",
+    "processServerId": "string",
+    "port": "string",
+    "runAsAccountId": "string"
+  }
+}
+ 

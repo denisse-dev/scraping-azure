@@ -1,0 +1,41 @@
+{
+  "name": "string",
+  "type": "Microsoft.DataFactory/factories/pipelines",
+  "apiVersion": "2018-06-01",
+  "properties": {
+    "description": "string",
+    "activities": [
+      {
+        "additionalProperties": {},
+        "name": "string",
+        "description": "string",
+        "dependsOn": [
+          {
+            "additionalProperties": {},
+            "activity": "string",
+            "dependencyConditions": [
+              "string"
+            ]
+          }
+        ],
+        "userProperties": [
+          {
+            "name": "string",
+            "value": {}
+          }
+        ],
+        "type": "string"
+      }
+    ],
+    "parameters": {},
+    "variables": {},
+    "concurrency": "integer",
+    "annotations": [
+      {}
+    ],
+    "folder": {
+      "name": "string"
+    }
+  }
+}
+ 

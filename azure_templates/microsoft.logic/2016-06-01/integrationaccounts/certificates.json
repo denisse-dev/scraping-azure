@@ -1,0 +1,19 @@
+{
+  "name": "string",
+  "type": "Microsoft.Logic/integrationAccounts/certificates",
+  "apiVersion": "2016-06-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "metadata": {},
+    "key": {
+      "keyVault": {
+        "id": "string"
+      },
+      "keyName": "string",
+      "keyVersion": "string"
+    },
+    "publicCertificate": "string"
+  }
+}
+ 

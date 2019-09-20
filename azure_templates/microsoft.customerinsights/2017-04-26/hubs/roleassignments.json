@@ -1,0 +1,122 @@
+{
+  "name": "string",
+  "type": "Microsoft.CustomerInsights/hubs/roleAssignments",
+  "apiVersion": "2017-04-26",
+  "properties": {
+    "displayName": {},
+    "description": {},
+    "role": "string",
+    "principals": [
+      {
+        "principalId": "string",
+        "principalType": "string",
+        "principalMetadata": {}
+      }
+    ],
+    "profiles": {
+      "elements": [
+        "string"
+      ],
+      "exceptions": [
+        "string"
+      ]
+    },
+    "interactions": {
+      "elements": [
+        "string"
+      ],
+      "exceptions": [
+        "string"
+      ]
+    },
+    "links": {
+      "elements": [
+        "string"
+      ],
+      "exceptions": [
+        "string"
+      ]
+    },
+    "kpis": {
+      "elements": [
+        "string"
+      ],
+      "exceptions": [
+        "string"
+      ]
+    },
+    "sasPolicies": {
+      "elements": [
+        "string"
+      ],
+      "exceptions": [
+        "string"
+      ]
+    },
+    "connectors": {
+      "elements": [
+        "string"
+      ],
+      "exceptions": [
+        "string"
+      ]
+    },
+    "views": {
+      "elements": [
+        "string"
+      ],
+      "exceptions": [
+        "string"
+      ]
+    },
+    "relationshipLinks": {
+      "elements": [
+        "string"
+      ],
+      "exceptions": [
+        "string"
+      ]
+    },
+    "relationships": {
+      "elements": [
+        "string"
+      ],
+      "exceptions": [
+        "string"
+      ]
+    },
+    "widgetTypes": {
+      "elements": [
+        "string"
+      ],
+      "exceptions": [
+        "string"
+      ]
+    },
+    "roleAssignments": {
+      "elements": [
+        "string"
+      ],
+      "exceptions": [
+        "string"
+      ]
+    },
+    "conflationPolicies": {
+      "elements": [
+        "string"
+      ],
+      "exceptions": [
+        "string"
+      ]
+    },
+    "segments": {
+      "elements": [
+        "string"
+      ],
+      "exceptions": [
+        "string"
+      ]
+    }
+  }
+}
+ 

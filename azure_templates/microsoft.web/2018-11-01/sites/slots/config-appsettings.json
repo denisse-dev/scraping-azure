@@ -1,0 +1,11 @@
+{
+  "name": "appsettings",
+  "type": "Microsoft.Web/sites/slots/config",
+  "apiVersion": "2018-11-01",
+  "properties": {
+    "name": "value",
+    "name": "value",
+    "name": "value"
+  }
+}
+ 

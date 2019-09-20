@@ -1,0 +1,18 @@
+{
+  "name": "string",
+  "type": "Microsoft.StorSimple/managers/devices/volumeContainers",
+  "apiVersion": "2017-06-01",
+  "kind": "Series8000",
+  "properties": {
+    "encryptionKey": {
+      "value": "string",
+      "encryptionCertThumbprint": "string",
+      "encryptionAlgorithm": "string"
+    },
+    "storageAccountCredentialId": "string",
+    "bandWidthRateInMbps": "integer",
+    "bandwidthSettingId": "string"
+  },
+  "resources": []
+}
+ 

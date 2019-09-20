@@ -1,0 +1,9 @@
+{
+  "name": "string",
+  "type": "Microsoft.DataLakeStore/accounts/virtualNetworkRules",
+  "apiVersion": "2016-11-01",
+  "properties": {
+    "subnetId": "string"
+  }
+}
+ 

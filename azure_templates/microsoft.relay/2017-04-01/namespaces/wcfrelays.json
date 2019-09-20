@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.Relay/namespaces/wcfRelays",
+  "apiVersion": "2017-04-01",
+  "properties": {
+    "relayType": "string",
+    "requiresClientAuthorization": "boolean",
+    "requiresTransportSecurity": "boolean",
+    "userMetadata": "string"
+  },
+  "resources": []
+}
+ 

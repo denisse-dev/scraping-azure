@@ -1,0 +1,12 @@
+{
+  "name": "string",
+  "type": "Microsoft.StorageSync/storageSyncServices/syncGroups/cloudEndpoints",
+  "apiVersion": "2019-03-01",
+  "properties": {
+    "storageAccountResourceId": "string",
+    "azureFileShareName": "string",
+    "storageAccountTenantId": "string",
+    "friendlyName": "string"
+  }
+}
+ 

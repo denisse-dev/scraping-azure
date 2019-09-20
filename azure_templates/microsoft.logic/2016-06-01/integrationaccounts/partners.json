@@ -1,0 +1,22 @@
+{
+  "name": "string",
+  "type": "Microsoft.Logic/integrationAccounts/partners",
+  "apiVersion": "2016-06-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "partnerType": "string",
+    "metadata": {},
+    "content": {
+      "b2b": {
+        "businessIdentities": [
+          {
+            "qualifier": "string",
+            "value": "string"
+          }
+        ]
+      }
+    }
+  }
+}
+ 

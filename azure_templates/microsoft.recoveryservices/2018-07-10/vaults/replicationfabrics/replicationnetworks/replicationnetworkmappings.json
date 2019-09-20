@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.RecoveryServices/vaults/replicationFabrics/replicationNetworks/replicationNetworkMappings",
+  "apiVersion": "2018-07-10",
+  "properties": {
+    "recoveryFabricName": "string",
+    "recoveryNetworkId": "string",
+    "fabricSpecificDetails": {
+      "instanceType": "string"
+    }
+  }
+}
+ 

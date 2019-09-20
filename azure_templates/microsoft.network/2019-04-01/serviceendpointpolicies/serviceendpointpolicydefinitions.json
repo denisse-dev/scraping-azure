@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/serviceEndpointPolicies/serviceEndpointPolicyDefinitions",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "description": "string",
+    "service": "string",
+    "serviceResources": [
+      "string"
+    ]
+  }
+}
+ 

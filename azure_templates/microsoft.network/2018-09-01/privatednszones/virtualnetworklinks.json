@@ -1,0 +1,14 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+  "apiVersion": "2018-09-01",
+  "tags": {},
+  "location": "string",
+  "properties": {
+    "virtualNetwork": {
+      "id": "string"
+    },
+    "registrationEnabled": "boolean"
+  }
+}
+ 

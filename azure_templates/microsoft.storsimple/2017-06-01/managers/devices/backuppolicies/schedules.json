@@ -1,0 +1,20 @@
+{
+  "name": "string",
+  "type": "Microsoft.StorSimple/managers/devices/backupPolicies/schedules",
+  "apiVersion": "2017-06-01",
+  "kind": "Series8000",
+  "properties": {
+    "scheduleRecurrence": {
+      "recurrenceType": "string",
+      "recurrenceValue": "integer",
+      "weeklyDaysList": [
+        "string"
+      ]
+    },
+    "backupType": "string",
+    "retentionCount": "integer",
+    "startTime": "string",
+    "scheduleStatus": "string"
+  }
+}
+ 

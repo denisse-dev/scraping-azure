@@ -1,0 +1,10 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/expressRouteCircuits/authorizations",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "authorizationKey": "string",
+    "authorizationUseStatus": "string"
+  }
+}
+ 

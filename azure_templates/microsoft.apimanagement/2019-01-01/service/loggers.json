@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.ApiManagement/service/loggers",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "loggerType": "string",
+    "description": "string",
+    "credentials": {},
+    "isBuffered": "boolean",
+    "resourceId": "string"
+  }
+}
+ 

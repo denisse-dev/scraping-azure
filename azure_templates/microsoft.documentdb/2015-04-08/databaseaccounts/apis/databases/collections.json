@@ -1,0 +1,26 @@
+{
+  "name": "string",
+  "type": "Microsoft.DocumentDB/databaseAccounts/apis/databases/collections",
+  "apiVersion": "2015-04-08",
+  "properties": {
+    "resource": {
+      "id": "string",
+      "shardKey": {},
+      "indexes": [
+        {
+          "key": {
+            "keys": [
+              "string"
+            ]
+          },
+          "options": {
+            "expireAfterSeconds": "integer",
+            "unique": "boolean"
+          }
+        }
+      ]
+    },
+    "options": {}
+  }
+}
+ 

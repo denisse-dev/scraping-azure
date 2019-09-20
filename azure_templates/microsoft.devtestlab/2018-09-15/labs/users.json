@@ -1,0 +1,22 @@
+{
+  "name": "string",
+  "type": "Microsoft.DevTestLab/labs/users",
+  "apiVersion": "2018-09-15",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "identity": {
+      "principalName": "string",
+      "principalId": "string",
+      "tenantId": "string",
+      "objectId": "string",
+      "appId": "string"
+    },
+    "secretStore": {
+      "keyVaultUri": "string",
+      "keyVaultId": "string"
+    }
+  },
+  "resources": []
+}
+ 

@@ -1,0 +1,10 @@
+{
+  "name": "string",
+  "type": "Microsoft.Cache/Redis/firewallRules",
+  "apiVersion": "2018-03-01",
+  "properties": {
+    "startIP": "string",
+    "endIP": "string"
+  }
+}
+ 

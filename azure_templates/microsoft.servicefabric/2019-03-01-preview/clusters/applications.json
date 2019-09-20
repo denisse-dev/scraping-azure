@@ -1,0 +1,47 @@
+{
+  "name": "string",
+  "type": "Microsoft.ServiceFabric/clusters/applications",
+  "apiVersion": "2019-03-01-preview",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "typeVersion": "string",
+    "parameters": {},
+    "upgradePolicy": {
+      "upgradeReplicaSetCheckTimeout": "string",
+      "forceRestart": "boolean",
+      "rollingUpgradeMonitoringPolicy": {
+        "failureAction": "string",
+        "healthCheckWaitDuration": "string",
+        "healthCheckStableDuration": "string",
+        "healthCheckRetryTimeout": "string",
+        "upgradeTimeout": "string",
+        "upgradeDomainTimeout": "string"
+      },
+      "applicationHealthPolicy": {
+        "considerWarningAsError": "boolean",
+        "maxPercentUnhealthyDeployedApplications": "integer",
+        "defaultServiceTypeHealthPolicy": {
+          "maxPercentUnhealthyServices": "integer",
+          "maxPercentUnhealthyPartitionsPerService": "integer",
+          "maxPercentUnhealthyReplicasPerPartition": "integer"
+        },
+        "serviceTypeHealthPolicyMap": {}
+      }
+    },
+    "minimumNodes": "integer",
+    "maximumNodes": "integer",
+    "removeApplicationCapacity": "boolean",
+    "metrics": [
+      {
+        "name": "string",
+        "maximumCapacity": "integer",
+        "reservationCapacity": "integer",
+        "totalApplicationCapacity": "integer"
+      }
+    ],
+    "typeName": "string"
+  },
+  "resources": []
+}
+ 

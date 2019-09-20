@@ -1,0 +1,15 @@
+{
+  "name": "string",
+  "type": "Microsoft.Kusto/clusters/databases",
+  "apiVersion": "2019-05-15",
+  "location": "string",
+  "properties": {
+    "softDeletePeriod": "string",
+    "hotCachePeriod": "string",
+    "statistics": {
+      "size": "number"
+    }
+  },
+  "resources": []
+}
+ 

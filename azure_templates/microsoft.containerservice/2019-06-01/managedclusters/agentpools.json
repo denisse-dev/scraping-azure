@@ -1,0 +1,28 @@
+{
+  "name": "string",
+  "type": "Microsoft.ContainerService/managedClusters/agentPools",
+  "apiVersion": "2019-06-01",
+  "properties": {
+    "count": "integer",
+    "vmSize": "string",
+    "osDiskSizeGB": "integer",
+    "vnetSubnetID": "string",
+    "maxPods": "integer",
+    "osType": "string",
+    "maxCount": "integer",
+    "minCount": "integer",
+    "enableAutoScaling": "boolean",
+    "type": "string",
+    "orchestratorVersion": "string",
+    "availabilityZones": [
+      "string"
+    ],
+    "enableNodePublicIP": "boolean",
+    "scaleSetPriority": "string",
+    "scaleSetEvictionPolicy": "string",
+    "nodeTaints": [
+      "string"
+    ]
+  }
+}
+ 

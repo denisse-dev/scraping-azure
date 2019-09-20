@@ -1,0 +1,12 @@
+{
+  "name": "string",
+  "type": "Microsoft.Batch/batchAccounts/applications",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "displayName": "string",
+    "allowUpdates": "boolean",
+    "defaultVersion": "string"
+  },
+  "resources": []
+}
+ 

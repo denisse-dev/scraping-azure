@@ -1,0 +1,11 @@
+{
+  "name": "string",
+  "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "publicAccess": "string",
+    "metadata": {}
+  },
+  "resources": []
+}
+ 

@@ -1,0 +1,26 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/frontDoors/backendPools",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "backends": [
+      {
+        "address": "string",
+        "httpPort": "integer",
+        "httpsPort": "integer",
+        "enabledState": "string",
+        "priority": "integer",
+        "weight": "integer",
+        "backendHostHeader": "string"
+      }
+    ],
+    "loadBalancingSettings": {
+      "id": "string"
+    },
+    "healthProbeSettings": {
+      "id": "string"
+    },
+    "resourceState": "string"
+  }
+}
+ 

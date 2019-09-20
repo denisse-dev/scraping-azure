@@ -1,0 +1,14 @@
+{
+  "name": "string",
+  "type": "Microsoft.ApiManagement/service/properties",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "tags": [
+      "string"
+    ],
+    "secret": "boolean",
+    "displayName": "string",
+    "value": "string"
+  }
+}
+ 

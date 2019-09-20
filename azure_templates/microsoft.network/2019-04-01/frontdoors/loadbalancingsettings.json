@@ -1,0 +1,12 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/frontDoors/loadBalancingSettings",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "sampleSize": "integer",
+    "successfulSamplesRequired": "integer",
+    "additionalLatencyMilliseconds": "integer",
+    "resourceState": "string"
+  }
+}
+ 

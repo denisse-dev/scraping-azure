@@ -1,0 +1,8 @@
+{
+  "name": "string",
+  "type": "Microsoft.HDInsight/clusters/extensions",
+  "apiVersion": "2018-06-01-preview",
+  "workspaceId": "string",
+  "primaryKey": "string"
+}
+ 

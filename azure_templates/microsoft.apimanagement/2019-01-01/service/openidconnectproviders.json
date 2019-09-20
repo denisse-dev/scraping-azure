@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.ApiManagement/service/openidConnectProviders",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "displayName": "string",
+    "description": "string",
+    "metadataEndpoint": "string",
+    "clientId": "string",
+    "clientSecret": "string"
+  }
+}
+ 

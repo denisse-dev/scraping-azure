@@ -1,0 +1,16 @@
+{
+  "name": "string",
+  "type": "Microsoft.StorSimple/managers/devices/volumeContainers/volumes",
+  "apiVersion": "2017-06-01",
+  "kind": "Series8000",
+  "properties": {
+    "sizeInBytes": "integer",
+    "volumeType": "string",
+    "accessControlRecordIds": [
+      "string"
+    ],
+    "volumeStatus": "string",
+    "monitoringStatus": "string"
+  }
+}
+ 

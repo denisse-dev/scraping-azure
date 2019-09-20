@@ -1,0 +1,51 @@
+{
+  "name": "string",
+  "type": "Microsoft.ApiManagement/service/backends",
+  "apiVersion": "2019-01-01",
+  "properties": {
+    "title": "string",
+    "description": "string",
+    "resourceId": "string",
+    "properties": {
+      "serviceFabricCluster": {
+        "clientCertificatethumbprint": "string",
+        "maxPartitionResolutionRetries": "integer",
+        "managementEndpoints": [
+          "string"
+        ],
+        "serverCertificateThumbprints": [
+          "string"
+        ],
+        "serverX509Names": [
+          {
+            "name": "string",
+            "issuerCertificateThumbprint": "string"
+          }
+        ]
+      }
+    },
+    "credentials": {
+      "certificate": [
+        "string"
+      ],
+      "query": {},
+      "header": {},
+      "authorization": {
+        "scheme": "string",
+        "parameter": "string"
+      }
+    },
+    "proxy": {
+      "url": "string",
+      "username": "string",
+      "password": "string"
+    },
+    "tls": {
+      "validateCertificateChain": "boolean",
+      "validateCertificateName": "boolean"
+    },
+    "url": "string",
+    "protocol": "string"
+  }
+}
+ 

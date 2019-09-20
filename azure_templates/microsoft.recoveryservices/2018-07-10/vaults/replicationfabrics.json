@@ -1,0 +1,12 @@
+{
+  "name": "string",
+  "type": "Microsoft.RecoveryServices/vaults/replicationFabrics",
+  "apiVersion": "2018-07-10",
+  "properties": {
+    "customDetails": {
+      "instanceType": "string"
+    }
+  },
+  "resources": []
+}
+ 

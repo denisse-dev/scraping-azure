@@ -1,0 +1,20 @@
+{
+  "name": "string",
+  "type": "Microsoft.DevTestLab/labs/users/environments",
+  "apiVersion": "2018-09-15",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "deploymentProperties": {
+      "armTemplateId": "string",
+      "parameters": [
+        {
+          "name": "string",
+          "value": "string"
+        }
+      ]
+    },
+    "armTemplateDisplayName": "string"
+  }
+}
+ 

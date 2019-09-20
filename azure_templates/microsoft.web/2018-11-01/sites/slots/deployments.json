@@ -1,0 +1,18 @@
+{
+  "name": "string",
+  "type": "Microsoft.Web/sites/slots/deployments",
+  "apiVersion": "2018-11-01",
+  "kind": "string",
+  "properties": {
+    "status": "integer",
+    "message": "string",
+    "author": "string",
+    "deployer": "string",
+    "author_email": "string",
+    "start_time": "string",
+    "end_time": "string",
+    "active": "boolean",
+    "details": "string"
+  }
+}
+ 

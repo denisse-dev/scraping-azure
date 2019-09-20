@@ -1,0 +1,17 @@
+{
+  "name": "string",
+  "type": "Microsoft.Automation/automationAccounts/python2Packages",
+  "apiVersion": "2018-06-30",
+  "properties": {
+    "contentLink": {
+      "uri": "string",
+      "contentHash": {
+        "algorithm": "string",
+        "value": "string"
+      },
+      "version": "string"
+    }
+  },
+  "tags": {}
+}
+ 

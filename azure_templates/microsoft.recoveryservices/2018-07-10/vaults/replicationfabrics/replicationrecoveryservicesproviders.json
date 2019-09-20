@@ -1,0 +1,23 @@
+{
+  "name": "string",
+  "type": "Microsoft.RecoveryServices/vaults/replicationFabrics/replicationRecoveryServicesProviders",
+  "apiVersion": "2018-07-10",
+  "properties": {
+    "machineName": "string",
+    "authenticationIdentityInput": {
+      "tenantId": "string",
+      "applicationId": "string",
+      "objectId": "string",
+      "audience": "string",
+      "aadAuthority": "string"
+    },
+    "resourceAccessIdentityInput": {
+      "tenantId": "string",
+      "applicationId": "string",
+      "objectId": "string",
+      "audience": "string",
+      "aadAuthority": "string"
+    }
+  }
+}
+ 

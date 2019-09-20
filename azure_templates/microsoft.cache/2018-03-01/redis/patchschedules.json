@@ -1,0 +1,15 @@
+{
+  "name": "string",
+  "type": "Microsoft.Cache/Redis/patchSchedules",
+  "apiVersion": "2018-03-01",
+  "properties": {
+    "scheduleEntries": [
+      {
+        "dayOfWeek": "string",
+        "startHourUtc": "integer",
+        "maintenanceWindow": "string"
+      }
+    ]
+  }
+}
+ 

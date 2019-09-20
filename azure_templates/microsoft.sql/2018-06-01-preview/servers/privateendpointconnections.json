@@ -1,0 +1,15 @@
+{
+  "name": "string",
+  "type": "Microsoft.Sql/servers/privateEndpointConnections",
+  "apiVersion": "2018-06-01-preview",
+  "properties": {
+    "privateEndpoint": {
+      "id": "string"
+    },
+    "privateLinkServiceConnectionState": {
+      "status": "string",
+      "description": "string"
+    }
+  }
+}
+ 

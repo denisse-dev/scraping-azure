@@ -1,0 +1,17 @@
+{
+  "name": "string",
+  "type": "Microsoft.Compute/virtualMachineScaleSets/extensions",
+  "apiVersion": "2019-03-01",
+  "properties": {
+    "publisher": "string",
+    "type": "string",
+    "typeHandlerVersion": "string",
+    "autoUpgradeMinorVersion": "boolean",
+    "settings": {},
+    "protectedSettings": {},
+    "provisionAfterExtensions": [
+      "string"
+    ]
+  }
+}
+ 

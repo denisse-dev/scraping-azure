@@ -1,0 +1,9 @@
+{
+  "name": "string",
+  "type": "Microsoft.DataMigration/services/projects/tasks",
+  "apiVersion": "2018-04-19",
+  "properties": {
+    "taskType": "string"
+  }
+}
+ 

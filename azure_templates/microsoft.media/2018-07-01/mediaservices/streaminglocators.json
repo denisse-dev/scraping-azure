@@ -1,0 +1,25 @@
+{
+  "name": "string",
+  "type": "Microsoft.Media/mediaServices/streamingLocators",
+  "apiVersion": "2018-07-01",
+  "properties": {
+    "assetName": "string",
+    "startTime": "string",
+    "endTime": "string",
+    "streamingLocatorId": "string",
+    "streamingPolicyName": "string",
+    "defaultContentKeyPolicyName": "string",
+    "contentKeys": [
+      {
+        "id": "string",
+        "labelReferenceInStreamingPolicy": "string",
+        "value": "string"
+      }
+    ],
+    "alternativeMediaId": "string",
+    "filters": [
+      "string"
+    ]
+  }
+}
+ 

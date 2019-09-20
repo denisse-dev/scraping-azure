@@ -1,0 +1,9 @@
+{
+  "name": "string",
+  "type": "Microsoft.EventHub/namespaces/eventhubs/consumergroups",
+  "apiVersion": "2017-04-01",
+  "properties": {
+    "userMetadata": "string"
+  }
+}
+ 

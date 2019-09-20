@@ -1,0 +1,31 @@
+{
+  "name": "string",
+  "type": "Microsoft.CustomerInsights/hubs/relationshipLinks",
+  "apiVersion": "2017-04-26",
+  "properties": {
+    "displayName": {},
+    "description": {},
+    "interactionType": "string",
+    "mappings": [
+      {
+        "interactionFieldName": "string",
+        "linkType": "string",
+        "relationshipFieldName": "string"
+      }
+    ],
+    "profilePropertyReferences": [
+      {
+        "interactionPropertyName": "string",
+        "profilePropertyName": "string"
+      }
+    ],
+    "relatedProfilePropertyReferences": [
+      {
+        "interactionPropertyName": "string",
+        "profilePropertyName": "string"
+      }
+    ],
+    "relationshipName": "string"
+  }
+}
+ 

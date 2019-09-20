@@ -1,0 +1,29 @@
+{
+  "name": "string",
+  "type": "Microsoft.KeyVault/vaults/accessPolicies",
+  "apiVersion": "2018-02-14",
+  "properties": {
+    "accessPolicies": [
+      {
+        "tenantId": "string",
+        "objectId": "string",
+        "applicationId": "string",
+        "permissions": {
+          "keys": [
+            "string"
+          ],
+          "secrets": [
+            "string"
+          ],
+          "certificates": [
+            "string"
+          ],
+          "storage": [
+            "string"
+          ]
+        }
+      }
+    ]
+  }
+}
+ 

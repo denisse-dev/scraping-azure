@@ -1,0 +1,12 @@
+{
+  "name": "string",
+  "type": "Microsoft.RecoveryServices/vaults/replicationFabrics/replicationProtectionContainers/replicationMigrationItems",
+  "apiVersion": "2018-07-10",
+  "properties": {
+    "policyId": "string",
+    "providerSpecificDetails": {
+      "instanceType": "string"
+    }
+  }
+}
+ 

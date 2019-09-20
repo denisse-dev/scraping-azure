@@ -1,0 +1,12 @@
+{
+  "name": "string",
+  "type": "Microsoft.Sql/managedInstances/databases/schemas/tables/columns/sensitivityLabels",
+  "apiVersion": "2018-06-01-preview",
+  "properties": {
+    "labelName": "string",
+    "labelId": "string",
+    "informationType": "string",
+    "informationTypeId": "string"
+  }
+}
+ 

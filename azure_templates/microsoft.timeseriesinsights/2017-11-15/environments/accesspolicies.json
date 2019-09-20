@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.TimeSeriesInsights/environments/accessPolicies",
+  "apiVersion": "2017-11-15",
+  "properties": {
+    "principalObjectId": "string",
+    "description": "string",
+    "roles": [
+      "string"
+    ]
+  }
+}
+ 

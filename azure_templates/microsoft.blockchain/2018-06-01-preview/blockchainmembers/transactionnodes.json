@@ -1,0 +1,17 @@
+{
+  "name": "string",
+  "type": "Microsoft.Blockchain/blockchainMembers/transactionNodes",
+  "apiVersion": "2018-06-01-preview",
+  "location": "string",
+  "properties": {
+    "password": "string",
+    "firewallRules": [
+      {
+        "ruleName": "string",
+        "startIpAddress": "string",
+        "endIpAddress": "string"
+      }
+    ]
+  }
+}
+ 

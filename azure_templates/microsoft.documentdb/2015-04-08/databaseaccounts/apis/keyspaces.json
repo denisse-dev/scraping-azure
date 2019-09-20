@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "type": "Microsoft.DocumentDB/databaseAccounts/apis/keyspaces",
+  "apiVersion": "2015-04-08",
+  "properties": {
+    "resource": {
+      "id": "string"
+    },
+    "options": {}
+  },
+  "resources": []
+}
+ 

@@ -1,0 +1,12 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/frontDoors/healthProbeSettings",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "path": "string",
+    "protocol": "string",
+    "intervalInSeconds": "integer",
+    "resourceState": "string"
+  }
+}
+ 

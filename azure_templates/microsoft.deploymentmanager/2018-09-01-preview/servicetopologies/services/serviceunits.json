@@ -1,0 +1,18 @@
+{
+  "name": "string",
+  "type": "Microsoft.DeploymentManager/serviceTopologies/services/serviceUnits",
+  "apiVersion": "2018-09-01-preview",
+  "tags": {},
+  "location": "string",
+  "properties": {
+    "targetResourceGroup": "string",
+    "deploymentMode": "string",
+    "artifacts": {
+      "templateUri": "string",
+      "parametersUri": "string",
+      "templateArtifactSourceRelativePath": "string",
+      "parametersArtifactSourceRelativePath": "string"
+    }
+  }
+}
+ 

@@ -1,0 +1,9 @@
+{
+  "name": "string",
+  "type": "Microsoft.RecoveryServices/vaults/replicationVaultSettings",
+  "apiVersion": "2018-07-10",
+  "properties": {
+    "migrationSolutionId": "string"
+  }
+}
+ 

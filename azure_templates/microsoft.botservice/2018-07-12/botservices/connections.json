@@ -1,0 +1,25 @@
+{
+  "name": "string",
+  "type": "Microsoft.BotService/botServices/Connections",
+  "apiVersion": "2018-07-12",
+  "location": "string",
+  "tags": {},
+  "sku": {
+    "name": "string"
+  },
+  "kind": "string",
+  "properties": {
+    "clientId": "string",
+    "clientSecret": "string",
+    "scopes": "string",
+    "serviceProviderId": "string",
+    "serviceProviderDisplayName": "string",
+    "parameters": [
+      {
+        "key": "string",
+        "value": "string"
+      }
+    ]
+  }
+}
+ 

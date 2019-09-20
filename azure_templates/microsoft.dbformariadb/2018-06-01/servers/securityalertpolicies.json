@@ -1,0 +1,19 @@
+{
+  "name": "string",
+  "type": "Microsoft.DBforMariaDB/servers/securityAlertPolicies",
+  "apiVersion": "2018-06-01",
+  "properties": {
+    "state": "string",
+    "disabledAlerts": [
+      "string"
+    ],
+    "emailAddresses": [
+      "string"
+    ],
+    "emailAccountAdmins": "boolean",
+    "storageEndpoint": "string",
+    "storageAccountAccessKey": "string",
+    "retentionDays": "integer"
+  }
+}
+ 

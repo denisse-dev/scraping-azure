@@ -1,0 +1,32 @@
+{
+  "name": "string",
+  "type": "Microsoft.DocumentDB/databaseAccounts/apis/keyspaces/tables",
+  "apiVersion": "2015-04-08",
+  "properties": {
+    "resource": {
+      "id": "string",
+      "defaultTtl": "integer",
+      "schema": {
+        "columns": [
+          {
+            "name": "string",
+            "type": "string"
+          }
+        ],
+        "partitionKeys": [
+          {
+            "name": "string"
+          }
+        ],
+        "clusterKeys": [
+          {
+            "name": "string",
+            "orderBy": "string"
+          }
+        ]
+      }
+    },
+    "options": {}
+  }
+}
+ 

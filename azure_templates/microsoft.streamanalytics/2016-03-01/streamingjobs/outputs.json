@@ -1,0 +1,7 @@
+"serialization": {
+    "type": "Avro",
+    "properties": {
+        "encoding": "UTF8"
+    }
+}
+ 

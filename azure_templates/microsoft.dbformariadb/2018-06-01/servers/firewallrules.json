@@ -1,0 +1,10 @@
+{
+  "name": "string",
+  "type": "Microsoft.DBforMariaDB/servers/firewallRules",
+  "apiVersion": "2018-06-01",
+  "properties": {
+    "startIpAddress": "string",
+    "endIpAddress": "string"
+  }
+}
+ 

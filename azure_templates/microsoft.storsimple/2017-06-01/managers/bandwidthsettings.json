@@ -1,0 +1,27 @@
+{
+  "name": "string",
+  "type": "Microsoft.StorSimple/managers/bandwidthSettings",
+  "apiVersion": "2017-06-01",
+  "kind": "Series8000",
+  "properties": {
+    "schedules": [
+      {
+        "start": {
+          "hours": "integer",
+          "minutes": "integer",
+          "seconds": "integer"
+        },
+        "stop": {
+          "hours": "integer",
+          "minutes": "integer",
+          "seconds": "integer"
+        },
+        "rateInMbps": "integer",
+        "days": [
+          "string"
+        ]
+      }
+    ]
+  }
+}
+ 

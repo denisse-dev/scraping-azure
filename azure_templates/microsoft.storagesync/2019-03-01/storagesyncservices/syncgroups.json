@@ -1,0 +1,8 @@
+{
+  "name": "string",
+  "type": "Microsoft.StorageSync/storageSyncServices/syncGroups",
+  "apiVersion": "2019-03-01",
+  "properties": {},
+  "resources": []
+}
+ 

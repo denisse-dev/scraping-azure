@@ -1,0 +1,10 @@
+{
+  "name": "string",
+  "type": "Microsoft.DataLakeAnalytics/accounts/firewallRules",
+  "apiVersion": "2016-11-01",
+  "properties": {
+    "startIpAddress": "string",
+    "endIpAddress": "string"
+  }
+}
+ 

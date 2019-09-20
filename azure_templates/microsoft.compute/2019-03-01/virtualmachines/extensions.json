@@ -1,0 +1,39 @@
+{
+  "name": "string",
+  "type": "Microsoft.Compute/virtualMachines/extensions",
+  "apiVersion": "2019-03-01",
+  "location": "string",
+  "tags": {},
+  "properties": {
+    "publisher": "string",
+    "type": "string",
+    "typeHandlerVersion": "string",
+    "autoUpgradeMinorVersion": "boolean",
+    "settings": {},
+    "protectedSettings": {},
+    "instanceView": {
+      "name": "string",
+      "type": "string",
+      "typeHandlerVersion": "string",
+      "substatuses": [
+        {
+          "code": "string",
+          "level": "string",
+          "displayStatus": "string",
+          "message": "string",
+          "time": "string"
+        }
+      ],
+      "statuses": [
+        {
+          "code": "string",
+          "level": "string",
+          "displayStatus": "string",
+          "message": "string",
+          "time": "string"
+        }
+      ]
+    }
+  }
+}
+ 

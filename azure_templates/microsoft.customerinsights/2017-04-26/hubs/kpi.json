@@ -1,0 +1,38 @@
+{
+  "name": "string",
+  "type": "Microsoft.CustomerInsights/hubs/kpi",
+  "apiVersion": "2017-04-26",
+  "properties": {
+    "entityType": "string",
+    "entityTypeName": "string",
+    "displayName": {},
+    "description": {},
+    "calculationWindow": "string",
+    "calculationWindowFieldName": "string",
+    "function": "string",
+    "expression": "string",
+    "unit": "string",
+    "filter": "string",
+    "groupBy": [
+      "string"
+    ],
+    "thresHolds": {
+      "lowerLimit": "number",
+      "upperLimit": "number",
+      "increasingKpi": "boolean"
+    },
+    "aliases": [
+      {
+        "aliasName": "string",
+        "expression": "string"
+      }
+    ],
+    "extracts": [
+      {
+        "extractName": "string",
+        "expression": "string"
+      }
+    ]
+  }
+}
+ 

@@ -1,0 +1,21 @@
+{
+  "name": "string",
+  "type": "Microsoft.Network/virtualNetworks/virtualNetworkPeerings",
+  "apiVersion": "2019-04-01",
+  "properties": {
+    "allowVirtualNetworkAccess": "boolean",
+    "allowForwardedTraffic": "boolean",
+    "allowGatewayTransit": "boolean",
+    "useRemoteGateways": "boolean",
+    "remoteVirtualNetwork": {
+      "id": "string"
+    },
+    "remoteAddressSpace": {
+      "addressPrefixes": [
+        "string"
+      ]
+    },
+    "peeringState": "string"
+  }
+}
+ 
