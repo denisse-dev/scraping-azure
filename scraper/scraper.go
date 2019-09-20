@@ -2,11 +2,13 @@ package scraper
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io/ioutil"
 	"net/http"
 	"os"
 	"strings"
+	"sync"
 
 	"github.com/gocolly/colly"
 	"github.com/thedevsaddam/gojsonq"
@@ -18,11 +20,8 @@ type Node struct {
 	Children []Node `json:"children"`
 }
 
-type Info struct {
-	Title string
-	Href  string
-}
-
+// DownloadReference downloads and stores all of the Azure resources
+// specification
 func DownloadReference() error {
 	referenceUrl := "http://docs.microsoft.com/en-us/azure/templates/toc.json"
 	response, err := http.Get(referenceUrl)
@@ -46,7 +45,7 @@ func DownloadReference() error {
 		return err
 	}
 
-	if err = childIterator(cleanBody); err != nil {
+	if err = referenceIterator(cleanBody); err != nil {
 		fmt.Println(err)
 		return err
 	}
@@ -82,61 +81,42 @@ func referenceWriter(cleanBody []byte) error {
 	return nil
 }
 
-func childIterator(cleanBody []byte) error {
-	var data []Node
-	err := json.Unmarshal(cleanBody, &data)
-	fmt.Println("ERR: ", err)
+func referenceIterator(cleanBody []byte) error {
+	var resources []Node
+	if err := json.Unmarshal(cleanBody, &resources); err != nil {
+		return err
+	}
 
-	for _, v := range data {
-		for i, v := range v.Children {
-			if i > 1 {
-				continue
-			}
-			for _, v := range v.Children {
-				if v.Href != "" {
-					if err := getAndSave(v.Href); err != nil {
-						return err
-					}
-					continue
+	var wg sync.WaitGroup
+	wg.Add(len(resources))
+
+	for _, v := range resources {
+		go func(v Node) {
+			defer wg.Done()
+			for i, v := range v.Children {
+				// We stop iterating after the most recent date (index 1)
+				if i > 1 {
+					break
 				}
-				for _, v := range v.Children {
-					if v.Href != "" {
-						if err := getAndSave(v.Href); err != nil {
-							return err
-						}
-						continue
-					}
-					for _, v := range v.Children {
-						if v.Href != "" {
-							if err := getAndSave(v.Href); err != nil {
-								return err
-							}
-							continue
-						}
-						for _, v := range v.Children {
-							if v.Href != "" {
-								if err := getAndSave(v.Href); err != nil {
-									return err
-								}
-								continue
-							}
-							for _, v := range v.Children {
-								if v.Href != "" {
-									if err := getAndSave(v.Href); err != nil {
-										return err
-									}
-									continue
-								}
-								for _, v := range v.Children {
-									if err := getAndSave(v.Href); err != nil {
-										return err
-									}
-								}
-							}
-						}
-					}
+				if err := childIterator(v); err != nil {
+					fmt.Println(err)
 				}
 			}
+		}(v)
+	}
+	wg.Wait()
+
+	return nil
+}
+
+func childIterator(v Node) error {
+	for _, v := range v.Children {
+		if v.Href == "" {
+			childIterator(v)
+			continue
+		}
+		if err := getAndSave(v.Href); err != nil {
+			return err
 		}
 	}
 
@@ -148,27 +128,11 @@ func getAndSave(refUrl string) error {
 	if err != nil {
 		return err
 	}
-	saveSpec(res, url)
+	if err := saveSpec(res, url); err != nil {
+		return err
+	}
 
 	return nil
-}
-
-func flatNodes(top Node) []Info {
-	output := []Info{Info{
-		top.Title,
-		top.Href,
-	}}
-
-	if len(top.Children) < 1 {
-		return output
-	}
-
-	for _, c := range top.Children {
-		outcome := flatNodes(c)
-		output = append(output, outcome...)
-	}
-
-	return output
 }
 
 func getSpec(path string) (resource string, resURL string, err error) {
@@ -190,9 +154,12 @@ func getSpec(path string) (resource string, resURL string, err error) {
 	return resource, url.String(), nil
 }
 
-func saveSpec(spec string, url string) {
-	if spec == "" || url == "" {
-		fmt.Println("Can't be!")
+func saveSpec(spec string, url string) error {
+	if spec == "" {
+		return errors.New("specification can't be empty")
+	}
+	if url == "" {
+		return errors.New("url can't be empty")
 	}
 
 	path := "https://docs.microsoft.com/en-us/azure/templates/"
@@ -204,14 +171,17 @@ func saveSpec(spec string, url string) {
 
 	if _, err := os.Stat(dir.String()); os.IsNotExist(err) {
 		if err := os.MkdirAll(dir.String(), os.ModePerm); err != nil {
-			fmt.Println("We have a problem!")
+			return err
 		}
 	}
 
 	var file strings.Builder
 	file.WriteString(dir.String() + resource + ".json")
 
-	if err := ioutil.WriteFile(file.String(), []byte(spec), os.ModePerm); err != nil {
-		panic(err)
+	err := ioutil.WriteFile(file.String(), []byte(spec), os.ModePerm)
+	if err != nil {
+		return err
 	}
+
+	return nil
 }
